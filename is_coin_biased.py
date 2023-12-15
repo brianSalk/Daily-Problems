@@ -19,13 +19,12 @@ if __name__ == "__main__":
     coins = [Coin(.5) for _ in range(4)] + [Coin(.9)]
     head_count = 0
     biased_coin_count = 0
-    while True:
+
+    while biased_coin_count < num_trials:
         coin_chosen = random.choice(coins)
         result = coin_chosen.flip()
         if result:
             head_count += 1
             if coin_chosen.is_biased:
                 biased_coin_count += 1
-        if biased_coin_count == num_trials:
-            break
     print(f"Probability of coin being biased given heads: {biased_coin_count/head_count}")
