@@ -9,17 +9,21 @@ import random
 from statistics import mean
 from itertools import combinations_with_replacement, permutations
 
+
 def has_sublist(sublist, ls):
-    """ starting at each index in ls, check if sublist exists """
+    """starting at each index in ls, check if sublist exists"""
     for i in range(len(ls)):
         if ls[i:-1] == sublist:
             return True
     return False
 
+
 if __name__ == "__main__":
     ans = set()
-    for comb in combinations_with_replacement(('A','T','C','G'), 7):
+    for comb in combinations_with_replacement(("A", "T", "C", "G"), 7):
         for perm in permutations(comb):
-            if ('G' in perm and perm.count('T') > 1) and not has_sublist(('A','A','A','A','A'), perm):
+            if ("G" in perm and perm.count("T") > 1) and not has_sublist(
+                ("A", "A", "A", "A", "A"), perm
+            ):
                 ans.add(perm)
     print(len(ans))
