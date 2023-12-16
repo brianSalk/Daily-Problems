@@ -24,18 +24,19 @@
 # ------------------ simulation code -------------------------------
 from itertools import permutations
 
+
+def simulate(word):
+    word_set = set()
+    for i in range(2, 4):
+        word_set |= set(permutations(word, i))
+    print(word_set)
+    print(f'there are {len(word_set)} unique 2 or 3 letter permutations of {word}')
+
+
 if __name__ == "__main__":
     print("part 1: count 2 and 3 letter permutations of hello where l's are indistinguishable")
     word = "hello"
-    word_set = set()
-    for i in range(2, 4):
-        word_set |= set(permutations(word, i))
-    print(word_set)
-    print(f'there are {len(word_set)} unique 2 or 3 letter permutations of {word}')
+    simulate(word)
     print("part 2: count 2 and 3 letter permutations of hello where l's are distinguishable")
     word = "helLo"
-    word_set = set()
-    for i in range(2, 4):
-        word_set |= set(permutations(word, i))
-    print(word_set)
-    print(f'there are {len(word_set)} unique 2 or 3 letter permutations of {word}')
+    simulate(word)
