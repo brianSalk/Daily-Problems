@@ -9,6 +9,7 @@ from statistics import mean
 # 6 126
 # 7 254
 # f(n) = f(n-1) * 2 + 2
+# base case: f(1) = 2
 if __name__ == "__main__":
     goal = 7
     num_trials = 1_000_000
