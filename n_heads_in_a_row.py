@@ -1,6 +1,5 @@
 # how many times, on average, would you need to flip a fair coin until you get N heads in a row?
 import random
-from statistics import mean
 # 1 2
 # 2 6
 # 3 14
@@ -9,20 +8,19 @@ from statistics import mean
 # 6 126
 # 7 254
 # f(n) = f(n-1) * 2 + 2
+# base case: f(1) = 2
 if __name__ == "__main__":
-    goal = 7
     num_trials = 1_000_000
-    
     for goal in range(1,8):
-        trials = []
+        trials = 0
         for _ in range(num_trials):
-            successes = 0
-            attempts = 0
-            while successes < goal:
+            heads_count = 0
+            flips_per_trial = 0 
+            while heads_count < goal:
                 if random.random() >= .5:
-                    successes += 1
+                    heads_count += 1
                 else:
-                    successes = 0
-                attempts += 1
-            trials.append(attempts)
-        print(statistics.mean(trials))
+                    heads_count = 0
+                flips_per_trial += 1
+            trials += flips_per_trial
+        print(f'it takes {trials/num_trials} flips to get {goal} heads in a row')
