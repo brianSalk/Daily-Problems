@@ -24,13 +24,14 @@ if __name__ == "__main__":
         coin_bias = (upper + lower) / 2
         coins[0].probability = coin_bias
         num_heads = 0
+        # simulate 'num_trials' coin flips and count the number of heads
         for _ in range(num_trials):
             coin = random.choice(coins)
             if coin.flip():
                 num_heads += 1
         p = num_heads / num_trials
-        # if the bias is really close to 1, then assume no solution
-        if abs(coin_bias - 1) < .0001:
+        # if the bias is really close to 1 or zero, then assume no solution
+        if min(abs(coin_bias - 1), abs(coin_bias - 0)) < .0001:
             print(f"cannot find bias for {goal}")
             break
         # allow 10th of a percent error
