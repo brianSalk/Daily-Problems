@@ -1,6 +1,6 @@
 ## Is The Coin Biased?
 We are given 4 fair coins and one coin that is biased to land heads-up $90%$ of the time
-## What is the probability that we chose the biased coin given that the coin landed on heads?  
+### What is the probability that we chose the biased coin given that the coin landed on heads?  
 
 <details> <summary> Answer </summary> </details>
 
