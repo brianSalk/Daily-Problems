@@ -1,5 +1,5 @@
-# simulations
-simulations of various counting problems I pose on my Youtube channel.
+# Daily Problems
+Answers, explainations and code for each of the daily problems on my youtube channel
 ## Question1: NYT Connections Guessing Probability
 The rules to new york times Connections are as follows:  
   * There are 16 tiles, each tile has a word written on it.  
