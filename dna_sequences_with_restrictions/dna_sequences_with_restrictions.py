@@ -13,7 +13,7 @@ if __name__ == "__main__":
     for comb in combinations_with_replacement(("A", "T", "C", "G"), 7):
         for perm in permutations(comb):
             perm = "".join(perm)
-            if ("G" in perm and perm.count("T") > 1) and "AAA" not in perm:
+            if ("G" in perm and perm.count("T") > 1) and "AAAA" not in perm:
                 ans.add(perm)
             every.add(perm)
     print(ans)
