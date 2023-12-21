@@ -10,3 +10,5 @@ with me.
   * A: There are $4 \choose 3$  $=4$ ways to choose three markers from four and three of the four combinations contain a blue marker, so the answer is $\dfrac{3}{4}$
   * B: There are $5 \choose 3$ $=10$ ways to choose three markers from five, and there is only one combination that only contains black markers, so the answer is $\dfrac{10 - 1}{10}=\dfrac{9}{10}$
   * C: There are $6 \choose 3$ $=20$ ways to choose three markers from 6, and there are $4 \choose 3$ $=4$ ways to choose only black markers, so the answer is $\dfrac{20-4}{20}=\dfrac{4}{5}$
+    
+Notice how we used compliments for those last two.  It is possible to solve these problems directly by counting the combinations that include the blue marker(s) but, using the compliment is much easier and faster in this case.
