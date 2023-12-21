@@ -1,4 +1,4 @@
-# how many numbers less than 10000 have 4 but not 5 in them?
+# how many numbers between 0 and 10000 have 4 but not 5 in them?
 
 
 # to make this easier we can left pad the numbers with 0s
