@@ -29,7 +29,7 @@ if __name__ == '__main__':
     b1 = Bucket([Coin(), Coin(), Coin(.8)])
     b2 = Bucket([Coin(), Coin(), Coin(), Coin(.8)])
     buckets = [b1, b2]
-    num_trials = 1_000_000
+    num_trials = 2_000_000
     success_count = 0
     bucket_1 = 0
     bucket_2 = 0
@@ -40,8 +40,4 @@ if __name__ == '__main__':
         if coin.flip():
             heads_count += 1
             success_count += (bucket.id == 1 and coin.is_biased)
-            bucket_1 += (bucket.id == 1)
-            bucket_2 += (bucket.id == 2)
-    print(f'Probability of drawing a biased coin from bucket 1 given heads: {success_count / heads_count}')
-    print(f'Probability of drawing a coin from bucket 1 given heads: {bucket_1 / heads_count}')
-    print(f'Probability of drawing a coin from bucket 2 given heads: {bucket_2 / heads_count}')
+    print(f'Probability of drawing a biased coin from bucket 1 given heads: {success_count / heads_count:.3f}')
