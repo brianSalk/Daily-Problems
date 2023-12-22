@@ -1,15 +1,20 @@
 ## Numbers With $4$ But Not $5$:
-### How many numbers between $0$ and $10,000$ contain $4$ but not $5$?
+### How many numbers between $0$ and $10,000$ contain $4$ as a digit but not $5$?
 ## Explaination:
-To make this easier, we start by left padding numbers to contain $4$ digits so $100$ becomes $0100$ and $5$ becomes $0005$ etc.  This is not nessesary but will simplify our calculations.  
-We also do not need to worry about whether the range is inclusive or exclusive, it won't make a difference because neither $0$ nor $10,00$ contian $4$ or $5$.  
-Now we can count all the numbers in our range that contain 4:  
-  * $4$ will appear $1,000$ times in each of the four digits, so $1,000$ numbers begin with $4$.
-  * $4$ also appears $1,000$ times in the second (hundreds) digit, but we subtract $100$ because it already appears in the thousands digit $100$ times, giving us $900$.
-  * Continuing this logic, we find $4$ appears $1,000 - 100 - 90 = 810$ $4$'s in the tens place.
-  * Lastly, we count $1,000 - 100 - 90 - 81 = 729$ new $4$'s in the ones place.  
-Add all of those together and we have:
+### Inclusion/Exclusion (bad idea):
+The idea here is to add up all the numbers with $4$ in the thousands, hundreds tens and ones place, then exclude each overlapping case ($4$ appears in tens and thousands, $4$ appears in ones and tens etc.) to make sure we don't overcount.  Then we find all the numbers that contain $4$ and $5%, subtracting the overlapping numbers to not overcount.  Lastly, we subtract the sum of numbers that contain $4$ and $5$ from numbers that just contain $4$...  
+Notice that this is a **bad idea**!  This will take us so long and be so confusing I did not even bother to attempt to write it all out here, so can we do better?  
+### Compliments (much better):
+Of course we can do better!  
+We can find the numbers that **do not** have $4$ as a digit:  
 ```math
-fours = 1,000 + 900 + 810 + 729 = 3,519
+9^4 = 6,561
 ```
-Now we want to count the number of times that at least one $5$ appears in a number that already contains at least one $4$.  COMPLETE THIS
+Next we count the numbers that do not contain $4$ or $5$
+```math
+8^4 = 4,096
+```
+Since we want to find numbers who's digits contain $4$ but not $5$, we can simply subtract the amount of numbers without $4$ and $5$ from the amount of numbers without $4$.  
+```math
+6,561 - 4,096 = 2,465
+```
