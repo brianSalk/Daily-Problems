@@ -2,7 +2,7 @@
 ### How many numbers between $0$ and $10,000$ contain $4$ as a digit but not $5$?
 ## Explaination:
 ### Inclusion/Exclusion (bad idea):
-The idea here is to add up all the numbers with $4$ in the thousands, hundreds tens and ones place, then exclude each overlapping case ($4$ appears in tens and thousands, $4$ appears in ones and tens etc.) to make sure we don't overcount.  Then we find all the numbers that contain $4$ and $5%, subtracting the overlapping numbers to not overcount.  Lastly, we subtract the sum of numbers that contain $4$ and $5$ from numbers that just contain $4$...  
+The idea here is to add up all the numbers with $4$ in the thousands, hundreds tens and ones place, then exclude each overlapping case ($4$ appears in tens and thousands, $4$ appears in ones and tens etc.) to make sure we don't overcount.  Then we find all the numbers that contain $4$ and $5$, subtracting the overlapping numbers to not overcount.  Lastly, we subtract the sum of numbers that contain $4$ and $5$ from numbers that just contain $4$...  
 Notice that this is a **bad idea**!  This will take us so long and be so confusing I did not even bother to attempt to write it all out here, so can we do better?  
 ### Compliments (much better):
 Of course we can do better!  
