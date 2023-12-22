@@ -11,6 +11,5 @@
 if __name__ == "__main__":
     count = 0
     for i in range(10000):
-        if '4' in str(i) and '5' not in str(i):
-            count += 1
+        count +=  '4' in str(i) and '5' not in str(i)
     print(count)
