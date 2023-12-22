@@ -8,8 +8,17 @@
 # 900 additional numbers have 4 as the second digit
 # 810 additional numbers have 4 as the third digit
 # 729 additional numbers have 4 as the fourth digit
+# add those up and you get 3439
+# but we need to subtract the numbers that have 5 and 4 in them
+
+# easy way:
+# 9^4 numbers do not have 4
+# 10,000 - 9^4 = 3439
+
+
+
 if __name__ == "__main__":
     count = 0
-    for i in range(10000):
-        count +=  '4' in str(i) and '5' not in str(i)
+    for i in range(10_000):
+        count += '4' in str(i) and '5' not in str(i)
     print(count)
