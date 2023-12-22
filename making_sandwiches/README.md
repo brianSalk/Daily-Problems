@@ -11,7 +11,8 @@ A local deli has the following sandwich menu
    up to three servings of meat and one serving of cheese per sandwich
    
    ---
-Let's assume customers can mix and match types of bread but each sandwich needs two peices of bread.  
+Let's assume customers can mix and match types of bread and meat.  
+Each sandwich needs two peices of bread.  
 Meats, cheese, and lettuce however, are not required.
 ### How many different sandwiches can be created?
 ## Explaination:
