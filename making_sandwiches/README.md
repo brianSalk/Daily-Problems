@@ -1,5 +1,7 @@
 ## Making Sandwiches
 A local deli has the following sandwich menu
+
+---
   | meat | cheese | bread | 
   |:----:|:------:|:-----:|
   |ham   | american | white |
