@@ -26,13 +26,13 @@ P(O) = \text{probability of an observation}
 for our problem, the **observation is that the coin landed on heads** and **the event is chosing a biased coin**.  
 This gives us:
 ```math
-\text{probability of getting heads given biased coin}P(O|E) = .9 
+\text{probability of getting heads given biased coin} :P(O|E) = .9 
 ```
 ```math
-\text{probability of selecting 1 biased coin out of 5} = P(E) = .2 \text{probability of selecting 1 biased coin out of 5}
+\text{probability of selecting 1 biased coin out of 5} : P(E) = .2
 ```
 ```math
-\text{probability of getting heads} = P(O) = \dfrac{.5+.5+.5+.5+.9}{5} = .58
+\text{probability of getting heads} :P(O) = \dfrac{.5+.5+.5+.5+.9}{5} = .58
 ```
 let's re-write the above theorem with values from our problem
 ```math
