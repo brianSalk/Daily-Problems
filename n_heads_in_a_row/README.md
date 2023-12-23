@@ -6,7 +6,7 @@ Find a formula for the following question:
 If you are unsure about how to find an equation, sometimes you can start by simulating the problem.  
 In this case I used python to simulate flipping a coin until I got heads.  
 
-I simulated flipping the coin $1$ million times for $n=1$ through $8$.  
+I simulated flipping the coin (see the python file in the directory) $1$ million times for $n=1$ through $7$.  
 Here are the results of my script:  
 
 |n | expected flips |  
