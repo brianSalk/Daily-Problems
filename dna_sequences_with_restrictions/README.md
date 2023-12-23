@@ -1,6 +1,6 @@
 ## DNA Sequences With Restrictions
 A DNA sequence can be represented as a sequence of the four letters A, T, C, and G   
-Each A, T, C, and G represents a nucleotide
+Each A, T, C, and G represents a nucleotide.  
 In a hypothetical species, the following restrictions are known to exist:
   * There must be at least one G
   * there must be at least two T's
