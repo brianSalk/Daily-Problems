@@ -13,6 +13,8 @@ The rules to new york times Connections are as follows:
 ### Explaination
 The equation to solve this problem is
 ```math
-\frac{1}{C*4 \choose 4} \times C
+\dfrac{C}{4C \choose 4}
 ```
 Where $C$ is the number of categories yet to be uncovered.
+This answer can be derived quite literally by re-writing the question like so.  
+We choose $4$ tiles, with $C$ categories remaining, $4$ tiles per category.
