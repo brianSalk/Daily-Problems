@@ -1,5 +1,5 @@
 ## Question1: NYT Connections Guessing Probability
-The rules to new york times Connections are as follows:  
+The rules to new york times [Connections](https://www.nytimes.com/games/connections) are as follows:  
   * There are 16 tiles, each tile has a word written on it.  
   * each tile belongs to one of 4 unknown categories according to that tiles word.  
   * The player is to select four tiles at a time that all belong to the same category.
@@ -11,10 +11,15 @@ The rules to new york times Connections are as follows:
 <details> <summary>you have guessed and eleminated 2 categories?</summary> 0.0286 </details>
 
 ### Explaination
-The equation to solve this problem is
+Let's refer to the number of categories remaining (not yet guessed) as $C$.  
+Because every category contains $4$ tiles, and because we must choose $4$ tiles at a time,  
+the number of possible combinations of tiles to choose is:
+```math
+{4C \choose 4}
+```
+To find the probability of guessing a correct category with $C$ categories remaining is,  
+we must divide $C$ by ${4C \choose 4}$, so the equation is:
 ```math
 \dfrac{C}{4C \choose 4}
 ```
-Where $C$ is the number of categories yet to be uncovered.
-This answer can be derived quite literally by re-writing the question like so.  
-We choose $4$ tiles, with $C$ categories remaining, $4$ tiles per category.
+
