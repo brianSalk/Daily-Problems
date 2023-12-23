@@ -31,7 +31,7 @@ With the exepction of the last cell, all the numbers in the *expected flips* col
 |6 | 126    |  
 |7 | 254    |  
 
-The relationship between $n$ and the *expected flips* did not immediatly pop out at me, but I did notice a pattern within just the *expected flips* collumn:  
+The relationship between $n$ and the *expected flips* did not immediatly pop out at me, but I did notice a pattern within the *expected flips* collumn:  
 ```math
 f(n) = f(n-1) + 2 \cdot 2
 ```
