@@ -4,7 +4,7 @@ You are throwing darts at a world map, some of the darts are blue and some are g
 For simplicities sake, we will assume that the probability of a dart landing on the boundry between land and water is negligable.  
 ### Find the probabilities of the following:  
 <details><summary>A: Given that $3$ blue darts and $4$ green darts hit the map, what is the probability that exactly $1$ blue dart hits water and exaclty $2$ green darts hit land?</summary>0.046</details>
-<details><summary>B: Given that $5$ blue darts hit the map, what is the probability that $3$ or more of them hit water?</summary>0.656</details>
+<details><summary>B: Given that $6$ blue darts hit the map, what is the probability that $3$ or more of them hit water?</summary>0.656</details>
 <details><summary>C: Given that you threw 6 green darts, each has a $70\\%$ chance of hitting the map, what is the probability that at most $4$ of them hit land?</summary>0.998</details>
 
 ## Explainations:
