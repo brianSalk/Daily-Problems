@@ -18,7 +18,7 @@ This allows us to apply a formula called [stars and bars](https://brilliant.org/
   * In our case we have $4$ buckets and $4$ balls (after our modifications).  
   * This means that we need to find all the possible permutations of $4$ *'s and $3$ |'s.
     
-*We use $3$ |'s because each |'s represents a boundry between two categories (or in this case buckets).*  
+*We use 3 |'s because each |'s represents a boundry between two categories (or in this case buckets).*  
 Here is a diagram showing where each bucket is:
 ```math
 \text{bucket1}\space|\space\text{bucket2}\space|\space\text{bucket3}\space|\space\text{bucket4}
