@@ -4,7 +4,7 @@ You are throwing darts at a world map, some of the darts are blue and some are g
 For simplicities sake, we will assume that the probability of a dart landing on the boundry between land and water is negligable.  
 ### Find the probabilities of the following:  
 <details><summary>A: Given that $3$ blue darts and $4$ green darts hit the map, what is the probability that exactly $1$ blue dart hits water and exaclty $2$ green darts hit land?</summary>0.046</details>
-<details><summary>B: Given that $5$ blue darts hit the map, what is the probability that $3$ or more of them hit water?</summary>0.656</details>
+<details><summary>B: Given that $6$ blue darts hit the map, what is the probability that $3$ or more of them hit water?</summary>0.937</details>
 <details><summary>C: Given that you threw 6 green darts, each has a $70\\%$ chance of hitting the map, what is the probability that at most $4$ of them hit land?</summary>0.998</details>
 
 ## Explainations:
@@ -35,7 +35,7 @@ P(one\_blue\_hits\_water) \cdot P(two\_green\_hit\_land) \approx 0.046
 Where we have a similar question, but now we need to find the probability of hitting water *at least* $3$ times out of $5$ attempts.  
 The way we do this is we sum up the probability of getting $3$, $4$, $5$, and $6$ successes:
 ```math
-\sum_{i=3}^{5}{6 \choose i} \space .71^i .29^{6-i} \approx 0.656
+\sum_{i=3}^{6}{6 \choose i} \space .71^i .29^{6-i} \approx 0.937
 ```
 ### Part C:
 Now we have to find the probability that *at most* $4$ of $6$ darts hit land *if* it hits the map, but each dart only has a $70\\%$ chance of even hitting the map.  
