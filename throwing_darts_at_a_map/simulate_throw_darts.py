@@ -1,47 +1,48 @@
-# problem 1:
-# probability of 2 or more of 4 darts hitting national park
-# probability of all 4 darts hitting farm land
-# problem 2:
-# I throw 4 darts, my friend throws 3:
-# probability that I hit national park 3 or fewer times and and my friend hits farm land exactly once
-# problem 3:
-# I throw 4 darts, my friend throws 3:
-# probability that I hit national park 3 or more times or and my friend hits farm land once
-# demonstrates possible unintuitive result with and vs or
+#question 1 1 of three darts hit water, 2 or four hit land
+#question 2: probability 3 or more of 5 darts hit water
+# question 3, each dart has a 70% chance of hitting the map
+# find probability of hitting the map and hitting land AT MOST
+# 4 times out of 6 throws
+
 import random
 
-
-class Dart:
-
-    def __init__(self):
-        ...
-    def throw(self):
-        return random.random() * 100
-
-
 if __name__ == "__main__":
-    my_darts = [Dart(), Dart(), Dart(), Dart()]
-    friends_darts = [Dart(), Dart(), Dart()]
-    farm_land_cuttoff = 52
-    national_park_cuttoff = 3.6
-    count_my_hits = list(range(len(my_darts) + 1))
-    count_friends_hits = list(range(len(friends_darts) + 1))
+    #q1
     num_trials = 1_000_000
+    land_water_cuttoff = .71
+    num_blue_darts = 3
+    num_green_darts = 4
+    num_success = 0
     for _ in range(num_trials):
-        national_park_hits = 0
-        for dart in my_darts:
-            if dart.throw() < national_park_cuttoff:
-                national_park_hits += 1
-        count_my_hits[national_park_hits] += 1
-        my_probabilities = [count_hit / num_trials for count_hit in count_my_hits]
-        farm_hits = 0
-        for dart in friends_darts:
-            if dart.throw() < farm_land_cuttoff:
-                farm_hits += 1
-        count_friends_hits[farm_hits] += 1
-    friends_probabilities = [count_hit / num_trials for count_hit in count_friends_hits]
-    print(f'Probability that two or more of four darts hit national park: {sum(my_probabilities[2:]):.4f}')
-    print(f'Probability that all three darts hit farm land: {friends_probabilities[3]:.4f}') 
-    # interesting result: the next two are about equal
-    print(f'Probability that I hit national park 3 or fewer times and my friend hits farm land exactly once: {sum(my_probabilities[0:4]) * friends_probabilities[1]:.4f}')
-    print(f'Probability that I hit national park 3 or more times or my friend hits farm land once: {sum(my_probabilities[3:-1]) + friends_probabilities[1]:.4f}')
+        num_blue_hits = 0
+        num_green_hits = 0
+        for throw in range(num_blue_darts):
+            if random.random() < land_water_cuttoff:
+                num_blue_hits += 1
+        for throw in range(num_green_darts):
+            if random.random() > land_water_cuttoff:
+                num_green_hits += 1
+        if num_blue_hits == 1 and num_green_hits == 2:
+            num_success += 1
+    print(f"Q1: Probability of 1 of 3 darts hitting water and 2 or 4 hitting land: {num_success/num_trials}")
+    num_success = 0
+    for _ in range(num_trials):
+        num_hits = 0
+        for throw in range(6):
+            if random.random() < land_water_cuttoff:
+                num_hits += 1
+        if num_hits >= 3:
+            num_success += 1
+    print(f"Q2: Probability of 3 or more of 6 darts hitting water: {num_success/num_trials}")
+    num_darts = 6
+    prob_hit_map = .7
+    total_num_hits = 0
+    for _ in range(num_trials):
+        num_hits = 0
+        for throw in range(num_darts):
+            if random.random() < prob_hit_map:
+                if random.random() > land_water_cuttoff:
+                    num_hits += 1
+        if num_hits <= 4:
+            total_num_hits += 1
+    print(f"Q3: Probability of hitting map and land at most 4 times out of 6 throws: {total_num_hits/num_trials}")
