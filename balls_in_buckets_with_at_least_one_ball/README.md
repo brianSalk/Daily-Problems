@@ -39,12 +39,12 @@ Here is a diagram showing where each bucket is:
 ```
 Now we can write the following definition for *stars and bars*, using both binomial coefficient and multinomial coefficient:  
 ```math
-\text{stars\_and\_bars}(n,k) = {n+k-1 \choose n, \space k-1} = {n+k-1 \choose k-1}
+\left({n \choose k}\right) = {n+k-1 \choose n, \space k-1} = {n+k-1 \choose k-1}
 ```
 Because ${n+k-1 \choose k-1}$ is simpler than ${n+k-1 \choose n, \space k-1}$, most people just teach the former but for me it really clicked when I saw it explained with the multinomial coefficent.  
 So to finally answer our original question, we get:
 ```math
-answer = \text{stars\_and\_bars}(4,4) = {4 + 4 -1 \choose 4 - 1} = {7 \choose 3 } = 35
+answer = \left({4 \choose 4}\right) = {4 + 4 -1 \choose 4 - 1} = {7 \choose 3 } = 35
 ```
 
 
