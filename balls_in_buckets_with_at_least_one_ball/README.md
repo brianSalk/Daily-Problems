@@ -17,8 +17,9 @@ This allows us to apply a formula called [stars and bars](https://brilliant.org/
   * We can think of each ball as a *star* "*" and the boundries between buckets as *bars* "|".  
   * In our case we have $4$ buckets and $4$ balls (after our modifications).  
   * This means that we need to find all the possible permutations of $4$ *'s and $3$ |'s.
+  * we use the notation $\left({n \choose k}\right)$ to count partitions of $k$ indistinct objects into $n$ distinct partitions
     
-*We use $3$ |'s because each |'s represents a boundry between two categories (or in this case buckets).*  
+*We use 3 |'s because each |'s represents a boundry between two categories (or in this case buckets).*  
 Here is a diagram showing where each bucket is:
 ```math
 \text{bucket1}\space|\space\text{bucket2}\space|\space\text{bucket3}\space|\space\text{bucket4}
@@ -38,12 +39,12 @@ Here is a diagram showing where each bucket is:
 ```
 Now we can write the following definition for *stars and bars*, using both binomial coefficient and multinomial coefficient:  
 ```math
-\text{stars\_and\_bars}(n,k) = {n+k-1 \choose n, \space k-1} = {n+k-1 \choose k-1}
+\left({n \choose k}\right) = {n+k-1 \choose n, \space k-1} = {n+k-1 \choose k-1}
 ```
 Because ${n+k-1 \choose k-1}$ is simpler than ${n+k-1 \choose n, \space k-1}$, most people just teach the former but for me it really clicked when I saw it explained with the multinomial coefficent.  
 So to finally answer our original question, we get:
 ```math
-answer = \text{stars\_and\_bars}(4,4) = {4 + 4 -1 \choose 4 - 1} = {7 \choose 3 } = 35
+answer = \left({4 \choose 4}\right) = {4 + 4 -1 \choose 4 - 1} = {7 \choose 3 } = 35
 ```
 
 

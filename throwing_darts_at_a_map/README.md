@@ -32,7 +32,7 @@ which we multiply together to get:
 P(one\_blue\_hits\_water) \cdot P(two\_green\_hit\_land) \approx 0.046
 ```
 ### Part B:
-Where we have a similar question, but now we need to find the probability of hitting water *at least* $3$ times out of $5$ attempts.  
+Where we have a similar question, but now we need to find the probability of hitting water *at least* $3$ times out of $6$ attempts.  
 The way we do this is we sum up the probability of getting $3$, $4$, $5$, and $6$ successes:
 ```math
 \sum_{i=3}^{6}{6 \choose i} \space .71^i .29^{6-i} \approx 0.937
