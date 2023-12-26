@@ -4,6 +4,7 @@ We have $5$ unique coins (Penney, Nickle, Dime, Quarter, and Dollar) and $3$ uni
   <details><summary><b>A) </b>each coin must be placed in a bag?</summary></details>
   <details><summary><b>B) </b>each coin must be placed in a bag and each bag must have at least $1$ coin?</summary></details>
   <details><summary><b>C) </b>each bag can hold <em>at most</em> $1$ coin?</summary></details>
+  <details><summary><b>D) </b>each bag must hold <em>exactly</em> $1$ coin?</summary></details>
   
 ## Explainations:
 This three part problem designed to show that sometimes by adding a small restriction or variation to a problem, we totally change the problem.  Each of the three problems above are virtually unrelated and each requires a very different technique to solve.  
@@ -48,12 +49,17 @@ It turns out that many other arrangements get counted more than once using this 
 
   
 So what is a correct *and* scalable way to solve this problem?  For this we briefly introduce the concept of a *Stirling Partition Number*, AKA *Stirling Number of the second kind*.  
-A stirling partition number can be defined like so:
-  * The number of ways of partitioning a set of size $n$ into $k$ non-empty subsets.
+A stirling partition number can be defined as counting the number of ways of partitioning a set of size $n$ into $k$ non-empty indistinguishable subsets.  
+The notation is as follows:  
 ```math
-S2(n,k) = \left\{ \prescript{n}{k}{} \right\}
+S(n,k) = \left\{ \prescript{n}{k}{} \right\}
 ```
+Both $S(n,k)$ and $\left\\{ \prescript{n}{k}{} \right\\}$ are valid, but I prefer to use the latter.
 
-
-
-
+Because we have $3$ distinguishable bags, we need to multiply by $3!$, giving us the final answer of:
+```math
+3! \cdot \left\{ \prescript{3}{5}{} \right\} = 150
+```
+Those who desire a more in-depth explainatoin of sterling partition numbers may want to look [here](https://www.youtube.com/watch?v=hKYc9mwPJBA).
+### Part C:
+Now we have the restriction that each bag will contain *at most* $1$ coin.  
