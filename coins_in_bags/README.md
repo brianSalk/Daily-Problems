@@ -1,5 +1,5 @@
 ## Coins in Bags
-We have $5$ unique coins (Penney, Nickle, Dime, Quarter, and Dollar) and $3$ unique bags (Red, blue, and Green):
+We have $5$ unique coins (Penney, Nickle, Dime, Quarter, and Dollar) and $3$ unique bags (Small, Medium, and Large):
 ### How many ways can we distribute the $5$ coins into the $3$ bags if:
   <details><summary><b>A) </b>each coin must be placed in a bag?</summary></details>
   <details><summary><b>B) </b>each coin must be placed in a bag and each bag must have at least $1$ coin?</summary></details>
