@@ -48,7 +48,7 @@ Which is the same as the previous table except the order in which we added the c
 It turns out that many other arrangements get counted more than once using this approach and I will leave it to the reader to attempt to use principle of inclusion/exclusion to subtract the overcounted arrangements.  
 
   
-So what is a correct *and* scalable way to solve this problem?  For this we briefly introduce the concept of a *Stirling Partition Number*, AKA *Stirling Number of the second kind*. **†**  
+So what is a correct *and* scalable way to solve this problem?  For this we briefly introduce the concept of a *Stirling Partition Number*, AKA *Stirling Number of the second kind*. [†](#stirling-number-of-the-second-kind)
 A stirling partition number can be defined as counting the number of ways of partitioning a set of size $n$ into $k$ non-empty indistinguishable subsets.  
 The notation is as follows:  
 ```math
@@ -101,8 +101,8 @@ That's it!  I hope you enjoyed reading this and I hope you learned something new
 
 
 
-
-#### † I hate the name "Stirling Number Of The Second Kind" and much prefer "Stirling Partition Number".
+# †
+### Stirling number of the Second Kind
 Let's talk about all the reasons that "Stirling Number Of The Second Kind" is aweful.
   * It does not describe what the number does, "Stirling Partition Number" at least mentions partitions.
   * It is very long.  Although $\pi$ and $e$ are not descriptive, they are at least succinct.
