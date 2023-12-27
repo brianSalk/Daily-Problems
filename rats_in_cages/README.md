@@ -10,7 +10,7 @@ There are $6$ rats and $4$ cages.
 ### Part A:
 Because all our rats are indistinguishable and our cages are too, we count partitions of $6$.  
 This means that we can rephrase our question to be:
-> How many ways can $4$ numbers add up to six, ignoring order?
+> How many unique $4$ number combinations can add up to $6$, ignoring order?
 
 Let's enumerate these by hand:
 ```math
