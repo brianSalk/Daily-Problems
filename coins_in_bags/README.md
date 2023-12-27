@@ -103,7 +103,7 @@ That's it!  I hope you enjoyed reading this and I hope you learned something new
 
 # †
 ### Stirling number of the Second Kind
-Let's talk about all the reasons that "Stirling Number Of The Second Kind" is aweful.
+Let's talk about all the reasons that "Stirling Number Of The Second Kind" is an aweful name.
   * It does not describe what the number does, "Stirling Partition Number" at least mentions partitions.
   * It is very long.  Although $\pi$ and $e$ are not descriptive, they are at least succinct.
   * The reason it is the "Second Kind" is purly historical, a guy with the last name "Stirling" described the other kind of number (cycle number) first, but the two are not very related.
