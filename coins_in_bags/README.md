@@ -60,6 +60,6 @@ Because we have $3$ distinguishable bags, we need to multiply by $3!$, giving us
 ```math
 3! \cdot \left\{ \prescript{3}{5}{} \right\} = 150
 ```
-Those who desire a more in-depth explainatoin of sterling partition numbers may want to look [here](https://www.youtube.com/watch?v=hKYc9mwPJBA).
+Those who desire a more in-depth explainatoin of Stirling Partition Numbers may want to look [here](https://www.youtube.com/watch?v=hKYc9mwPJBA).
 ### Part C:
 Now we have the restriction that each bag will contain *at most* $1$ coin.  
