@@ -48,7 +48,7 @@ Which is the same as the previous table except the order in which we added the c
 It turns out that many other arrangements get counted more than once using this approach and I will leave it to the reader to attempt to use principle of inclusion/exclusion to subtract the overcounted arrangements.  
 
   
-So what is a correct *and* scalable way to solve this problem?  For this we briefly introduce the concept of a *Stirling Partition Number*, AKA *Stirling Number of the second kind*. [†](#stirling-number-of-the-second-kind)
+So what is a correct *and* scalable way to solve this problem?  For this we briefly introduce the concept of a *Stirling Partition Number*, AKA *Stirling Number of the second kind*. [†](#stirling-number-of-the-second-kind)  
 A stirling partition number can be defined as counting the number of ways of partitioning a set of size $n$ into $k$ non-empty indistinguishable subsets.  
 The notation is as follows:  
 ```math
@@ -70,7 +70,8 @@ Our formula for this is as follows:
 ```
   * There are $\prescript{k}{}{P}_0 { n \choose 0} = 0$ ways to arrange $0$ of $k$ coins in each of the $n$ bags.
   * There are $\prescript{k}{}{P}_1 { n \choose 1} ways to arrange $1$ of $k$ coins in each of the $n$ bags.  
-  * ...
+  * Continue up to $n$ ...
+    
 When we plug in our variables we get:
 ```math
 \sum_{i=0}^{5} \prescript{5}{}{P}_i {5 \choose i} = 136
