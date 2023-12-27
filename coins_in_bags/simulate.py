@@ -64,10 +64,10 @@ def q4():
 if __name__ == "__main__":
     coins = [1, 5, 10, 25, 100]
     ans = q1()
-    print(len(ans))
+    print(f'Q1: {len(ans)}')
     ans = q2()
-    print(len(ans))
+    print(f'Q2: {len(ans)}')
     ans = q3()
-    print(len(ans))
+    print(f'Q3: {len(ans)}')
     ans = q4()
-    print(len(ans))
+    print(f'Q4: {len(ans)}')
