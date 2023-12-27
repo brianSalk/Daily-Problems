@@ -3,8 +3,8 @@ We have $5$ unique coins (Penney, Nickle, Dime, Quarter, and Dollar) and $3$ uni
 ### How many ways can we distribute the $5$ coins into the $3$ bags if:
   <details><summary><b>A) </b>each coin must be placed in a bag?</summary>243</details>
   <details><summary><b>B) </b>each coin must be placed in a bag and each bag must have at least $1$ coin?</summary>150</details>
-  <details><summary><b>C) </b>each bag can hold <em>at most</em> $1$ coin?</summary>136</details>
-  <details><summary><b>D) </b>each bag must hold <em>exactly</em> $1$ coin?</summary>60</details>
+  <details><summary><b>C) </b>each bag can hold <em>at most</em> $1$ coin? (Some coins will not be in a bag)</summary>136</details>
+  <details><summary><b>D) </b>each bag must hold <em>exactly</em> $1$ coin? (Some coins will not be in a bag)</summary>60</details>
   
 ## Explainations:
 This three part problem designed to show that sometimes by adding a small restriction or variation to a problem, we totally change the problem.  Each of the four problems above are virtually unrelated and each requires a very different technique to solve.  
