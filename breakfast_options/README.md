@@ -46,5 +46,5 @@ Since we have the option to not order an entree, side or drink, let's just add o
 
 Now we have $4$ entrees, $3$ sides, and $5$ drinks.  We can utilize the product rule to get the same answer we got above:
 ```math
-\text{answer} = 4 \cdot 5 \cdot 3 = 60
+\text{answer} = 4 \cdot 3 \cdot 5 = 60
 ```
