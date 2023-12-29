@@ -17,7 +17,7 @@ the number of possible combinations of tiles to choose is:
 ```math
 {4C \choose 4}
 ```
-To find the probability of guessing a correct category with $C$ categories remaining is,  
+To find the probability of guessing a correct category with $C$ categories remaining,  
 we must divide $C$ by ${4C \choose 4}$, so the equation is:
 ```math
 \dfrac{C}{4C \choose 4}
