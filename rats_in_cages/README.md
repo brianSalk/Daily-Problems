@@ -1,9 +1,9 @@
 ## Rats in Cages
 There are $6$ rats and $4$ cages.  
 ### Assuming all rats are identical, answer the following questions:
-<details><summary><b>A)</b> How many ways can the rats be divided into the cages if the cages are indistinguishable?</summary></details>
-<details><summary><b>B</b>) How many ways can the rats be divided into the cages if the cages are distinct?</summary></details>
-<details><summary><b>C)</b> If each rat is placed in a cage at random, what are the odds that exactly $2$ rats will end up in at least one of the cages?</summary></details>
+<details><summary><b>A)</b> How many ways can the rats be divided into the cages if the cages are indistinguishable?</summary>9</details>
+<details><summary><b>B</b>) How many ways can the rats be divided into the cages if the cages are distinct?</summary>84</details>
+<details><summary><b>C)</b> If each rat is placed in a cage at random, what are the odds that exactly $2$ rats will end up in at least one of the cages?</summary>0.548</details>
 
 
 ## Explainations:
