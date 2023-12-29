@@ -41,7 +41,7 @@ Let's enumerate these by hand:
 2+2+1+1
 ```
 So we can see that our total is $9$.  But that is not very satisfying (unless you enjoy manually enumerating partitions), can we come up with a closed-form equation?  
-Unfortunatly there is no known closed-form equation for counting partitions.  If you are feeling ambitios you may look up how to do this with generating functions, but that is definitly not something we will be doing here because it is rather technical.  
+Unfortunatly there is no known closed-form equation for counting partitions.  If you are feeling ambitious you may look up how to do this with generating functions, but that is definitly not something we will be doing here because it is rather technical.  
 
 
 
