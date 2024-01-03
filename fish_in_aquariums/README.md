@@ -82,7 +82,12 @@ This gives us the equation:
 ```math
 \left(n+1\right) + \sum_{i=1}^{n} 2i
 ```
+Where $n$ is the number of each type of fish.  
 Which is a way more complicated way of saying:
 ```math
 \left(n+1\right)^{2}
+```
+Plug in $5$ for $n$ and we get our final answer of:
+```math
+(5+1)^2 = 36
 ```
