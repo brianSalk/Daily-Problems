@@ -15,7 +15,7 @@ A local deli has the following sandwich menu
    ---
 Let's assume customers can mix and match types of bread and meat.  
 Each sandwich needs two peices of bread.  
-Meats, cheese, and lettuce however, are not required.
+Meats, cheese, and lettuce however, are not required (Two peices of bread with nothing on them can technically bea sandwich in this case).
 ### How many different sandwiches can be created?
 ## Explaination:
 Before we begin, we are going to apply a few tricks to make our lives easier.  
