@@ -9,6 +9,7 @@ We can start by putting all the fish into the Bowl aquarium.  Then we can find t
 Let's enumerate the first 6 cases using $B$ for Bass and $b$ for bluegill:  
 
 <h3 align="center">
+  Case 1
   
   | Bowl | Cube |
   | :---: | :---: |
@@ -17,6 +18,7 @@ Let's enumerate the first 6 cases using $B$ for Bass and $b$ for bluegill:
 </h3>
 
 <h3 align="center">
+  Case 2
   
   | Bowl | Cube |
   | :---: | :---: |
@@ -26,6 +28,7 @@ Let's enumerate the first 6 cases using $B$ for Bass and $b$ for bluegill:
 </h3>
 
 <h3 align="center">
+  Case 3
   
   | Bowl | Cube |
   | :---: | :---: |
@@ -35,6 +38,7 @@ Let's enumerate the first 6 cases using $B$ for Bass and $b$ for bluegill:
   
 </h3>
 <h3 align="center">
+  Case 4
   
   | Bowl | Cube |
   | :---: | :---: |
@@ -45,6 +49,7 @@ Let's enumerate the first 6 cases using $B$ for Bass and $b$ for bluegill:
   
 </h3>
 <h3 align="center">
+  Case 5
   
   | Bowl | Cube |
   | :---: | :---: |
@@ -57,6 +62,7 @@ Let's enumerate the first 6 cases using $B$ for Bass and $b$ for bluegill:
   
 </h3>
 <h3 align="center">
+  Case 6
   
   | Bowl | Cube |
   | :---: | :---: |
@@ -69,4 +75,14 @@ Let's enumerate the first 6 cases using $B$ for Bass and $b$ for bluegill:
   
   
 </h3>
-After adding up the rows of each table (excluding headers) we get $1+2+3+4+5+6$
+
+After adding up the rows of each table (excluding headers) we get $1+2+3+4+5+6$, but this is still an undercount because we only counting cases where we moved between $[0,5]$ fish to the Cube from the Bowl.  
+To fix this, we double the number of rows in every case except for the last.  We do not double the number of rows in the last case because there are $5$ fish in each.  
+This gives us the equation:
+```math
+\left(n+1\right) + \sum_{i=1}^{n} 2i
+```
+Which is a way more complicated way of saying:
+```math
+\left(n+1\right)^{2}
+```
