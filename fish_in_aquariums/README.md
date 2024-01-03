@@ -91,3 +91,5 @@ Plug in $5$ for $n$ and we get our final answer of:
 ```math
 (5+1)^2 = 36
 ```
+Lastly, I want to remid the reader of the limitations of generalizing from this equation.  If we only had, say $4$ Bluegill and $5$ Bass, then this whole equation would be completely different.  Same goes for if we had multiples of each kind of aquarium.  
+The point of these excersises is to get you thinking about counting problems and how to solve them, my explainations may not cover all possible ways of doing that.
