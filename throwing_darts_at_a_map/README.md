@@ -38,8 +38,8 @@ The way we do this is we sum up the probability of getting $3$, $4$, $5$, and $6
 \sum_{i=3}^{6}{6 \choose i} \space .71^i .29^{6-i} \approx 0.937
 ```
 ### Part C:
-Now we have to find the probability that *at most* $4$ of $6$ darts hit land *if* it hits the map, but each dart only has a $70\\%$ chance of even hitting the map.  
-For this problem, we can use $p = .29 \cdot .7 = .203$ to adjust for the $70\\%$ probability of hitting the map in the first place:
+Now we have to find the probability that *at most* $4$ of $6$ darts hit land, but each dart only has a $70\\%$ chance of even hitting the map.  
+For this problem, we can use $p = 0.29 \cdot 0.7 = 0.203$ to adjust for the $70\\%$ probability of hitting the map in the first place:
 ```math
 \sum_{i=0}^4 {6 \choose i} \space .203^i \space (1-.203)^{6-i} \approx 0.993
 ```
