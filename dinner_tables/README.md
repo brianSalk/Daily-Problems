@@ -3,7 +3,7 @@ There are $20$ people at a dinner party,
 If we do not care where people sit spacially or who is on which side of whom, but only who they sit next to,  
 ### How many unique seatings are there at a round table that:
   <details><summary><b>A)</b> seats $10$ people?</summary>30,474,662,400</details>
-  <details><summary><b>B)</b> seats $10$ people, but Jim, Ahmad, Mark, and Sana are friends and all want to sit somewhere at the same table?</summary>2,075,673,600</details>
+  <details><summary><b>B)</b> seats $10$ people, but Jim, Ahmad, Mark, and Sana are friends and all want to sit somewhere at the same table?</summary>28,398,988,800</details>
   <details><summary><b>C)</b> seats $10$ people, but Jim, Ahmad, Mark, all want to sit next to each-other?</summary>69,189,120</details>
   
 ## Explainations:
@@ -56,7 +56,17 @@ so we modify Part A's answer by subtracting all the permutations that don't incl
 Now the four friends requested to be sitting next to each other, adding even more restrictions to the number of seating arrangements.  
 There are $n! = 24$ ways that the $4$ friends can be seated and $6$ seats left for the others.  
 Remember that we only care about who the neighbors are and not about the actual seating positions so we do not multiply all the different places the $4$ can sit.  
-This leaves us with:
+The generic equation is:
+
+```math
+\dfrac{f! \cdot \prescript{n-f}{}{P}_{t-f}}{2}
+```
+Where:
+  * n is the total number of people at the party
+  * f is the number of friends who want to sit together
+  * t is the number of people sitting at the table
+    
+Plugging in our variables gives us:
 ```math
 \dfrac{24 \cdot \prescript{16}{}{P}_6}{2} = 69,189,120
 ```
