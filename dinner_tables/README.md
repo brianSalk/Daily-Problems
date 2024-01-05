@@ -3,7 +3,7 @@ There are $20$ people at a dinner party,
 If we do not care where people sit spacially or who is on which side of whom, but only who they sit next to,  
 ### How many unique seatings are there at a round table that:
   <details><summary><b>A)</b> seats $10$ people?</summary>30,474,662,400</details>
-  <details><summary><b>B)</b> seats $10$ people, but Jim, Ahmad, Mark, and Sana are friends and all want to sit somewhere at the same table?</summary></details>
+  <details><summary><b>B)</b> seats $10$ people, but Jim, Ahmad, Mark, and Sana are friends and all want to sit somewhere at the same table?</summary>2,075,673,600</details>
   <details><summary><b>C)</b> seats $10$ people, but Jim, Ahmad, Mark, all want to sit next to each-other?</summary></details>
   
 ## Explainations:
@@ -44,5 +44,11 @@ Here we can see that each letter has the same neighbors, we just switched the le
 To eliminate both rotations and reflections we use:
 ```math
 \dfrac{\prescript{20}{}{P}_9}{2} = 30,474,662,400
+```
+### Part B:
+Now we have essentially the same question except $4$ people: Jim, Amahd, Mark, and Sana are all sitting at the table.  This just means that we are not including them in the initial value for $n$,  
+so we modify Part A's answer by subtracting $4$ from $10$ to give us $n=16$:   
+```math
+\dfrac{\prescript{16}{}{P}_9}{2} = 2,075,673,600
 ```
   
