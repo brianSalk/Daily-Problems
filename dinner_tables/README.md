@@ -56,7 +56,7 @@ so we modify Part A's answer by subtracting all the permutations that don't incl
 Now the four friends requested to be sitting next to each other, adding even more restrictions to the number of seating arrangements.  
 There are $n! = 24$ ways that the $4$ friends can be seated and $6$ seats left for the others.  
 Remember that we only care about who the neighbors are and not about the actual seating positions so we do not multiply all the different places the $4$ can sit.  
-The generic equation is:
+The generic (and totally useless!) equation is:
 
 ```math
 \dfrac{f! \cdot \prescript{n-f}{}{P}_{t-f}}{2}
