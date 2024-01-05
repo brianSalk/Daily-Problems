@@ -4,7 +4,7 @@ If we do not care where people sit spacially or who is on which side of whom, bu
 ### How many unique seatings are there at a round table that:
   <details><summary><b>A)</b> seats $10$ people?</summary>30,474,662,400</details>
   <details><summary><b>B)</b> seats $10$ people, but Jim, Ahmad, Mark, and Sana are friends and all want to sit somewhere at the same table?</summary>2,075,673,600</details>
-  <details><summary><b>C)</b> seats $10$ people, but Jim, Ahmad, Mark, all want to sit next to each-other?</summary></details>
+  <details><summary><b>C)</b> seats $10$ people, but Jim, Ahmad, Mark, all want to sit next to each-other?</summary>69,189,120</details>
   
 ## Explainations:
 
@@ -50,5 +50,14 @@ Now we have essentially the same question except $4$ people: Jim, Amahd, Mark, a
 so we modify Part A's answer by subtracting $4$ from $10$ to give us $n=16$:   
 ```math
 \dfrac{\prescript{16}{}{P}_9}{2} = 2,075,673,600
+```
+
+### Part C:
+Now the four friends requested to be sitting next to each other, adding even more restrictions to the number of seating arrangements.  
+There are $n! = 24$ ways that the $4$ friends can be seated and $6$ seats left for the others.  
+Remember that we only care about who the neighbors are and not about the actual seating positions so we do not multiply all the different places the $4$ can sit.  
+This leaves us with:
+```math
+\dfrac{24 \cdot \prescript{16}{}{P}_6}{2} = 69,189,120
 ```
   
