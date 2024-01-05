@@ -47,9 +47,9 @@ To eliminate both rotations and reflections we use:
 ```
 ### Part B:
 Now we have essentially the same question except $4$ people - Jim, Amahd, Mark, and Sana - are all sitting at the table.  This just means that we are not including them in the initial value for $n$,  
-so we modify Part A's answer by subtracting $4$ from $10$ to give us $n=16$:   
+so we modify Part A's answer by subtracting all the permutations that don't include those $4$ people from the previous equation to give us:   
 ```math
-\dfrac{\prescript{16}{}{P}_9}{2} = 2,075,673,600
+\dfrac{\prescript{20}{}{P}_9 - \prescript{16}{}{P}_9 }{2} = 28,398,988,800
 ```
 
 ### Part C:
