@@ -62,9 +62,9 @@ The generic equation is:
 \dfrac{f! \cdot \prescript{n-f}{}{P}_{t-f}}{2}
 ```
 Where:
-  * n is the total number of people at the party
-  * f is the number of friends who want to sit together
-  * t is the number of people sitting at the table
+  * $n$ is the total number of people at the party
+  * $f$ is the number of friends who want to sit together
+  * $t$ is the number of people sitting at the table
     
 Plugging in our variables gives us:
 ```math
