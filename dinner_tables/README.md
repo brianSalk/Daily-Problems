@@ -46,10 +46,9 @@ To eliminate both rotations and reflections we use:
 \dfrac{\prescript{20}{}{P}_{10}}{2 \cdot 10} = 33,522,128,640
 ```
 ### Part B:
-Now we have essentially the same question except $4$ people - Jim, Amahd, Mark, and Sana - are all sitting at the table.  This just means that we are not including them in the initial value for $n$,  
-so we modify Part A's answer by subtracting all the permutations that don't include those $4$ people from the previous equation to give us:   
+Now we have essentially the same question except $4$ people - Jim, Amahd, Mark, and Sana - must all sitting at the table.  This means we can count the number of permutations that *do not* include them and subtract it from our total: 
 ```math
-\dfrac{\prescript{20}{}{P}_9 - \prescript{16}{}{P}_{10} }{2} = 28,398,988,800
+\dfrac{\prescript{20}{}{P}_{10} - \prescript{16}{}{P}_{10} }{20} = 28,398,988,800
 ```
 
 ### Part C:
