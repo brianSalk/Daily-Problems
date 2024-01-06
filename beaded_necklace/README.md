@@ -44,7 +44,7 @@ Because all the beads are unique, we can ignore the fact that some are small and
 ```math
 \dfrac{(n-1)!}{2}
 ```
-We plug in our variable $n=9$ to get:
+We plug in $n=3+6 = 9$ to get:
 ```math
 \dfrac{(9-1)!}{2} = 20,160
 ```
