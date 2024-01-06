@@ -4,7 +4,7 @@ If we do not care where people sit spacially or who is on which side of whom, bu
 ### How many unique seatings are there at a round table that:
   <details><summary><b>A)</b> seat exactly $10$ people?</summary>33,522,128,640</details>
   <details><summary><b>B)</b> seat exactly $10$ people, but Jim, Ahmad, Mark, and Sana are friends and all want to sit somewhere at the same table?</summary>145,297,152</details>
-  <details><summary><b>C)</b> seat exactly $10$ people, but Jim, Ahmad, Mark, all want to sit next to each-other?</summary>69,189,120</details>
+  <details><summary><b>C)</b> seat exactly $10$ people, but Jim, Ahmad, Mark, and Sana all want to sit next to each-other?</summary>69,189,120</details>
   
 ## Explainations:
 
