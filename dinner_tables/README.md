@@ -2,9 +2,9 @@
 There are $20$ people at a dinner party,  
 If we do not care where people sit spacially or who is on which side of whom, but only who they sit next to,  
 ### How many unique seatings are there at a round table that:
-  <details><summary><b>A)</b> seats $10$ people?</summary>33,522,128,640</details>
-  <details><summary><b>B)</b> seats $10$ people, but Jim, Ahmad, Mark, and Sana are friends and all want to sit somewhere at the same table?</summary>28,398,988,800</details>
-  <details><summary><b>C)</b> seats $10$ people, but Jim, Ahmad, Mark, all want to sit next to each-other?</summary>69,189,120</details>
+  <details><summary><b>A)</b> seat exactly $10$ people?</summary>33,522,128,640</details>
+  <details><summary><b>B)</b> seat exactly $10$ people, but Jim, Ahmad, Mark, and Sana are friends and all want to sit somewhere at the same table?</summary>145,297,152</details>
+  <details><summary><b>C)</b> seat exactly $10$ people, but Jim, Ahmad, Mark, all want to sit next to each-other?</summary>69,189,120</details>
   
 ## Explainations:
 
@@ -46,9 +46,16 @@ To eliminate both rotations and reflections we use:
 \dfrac{\prescript{20}{}{P}_{10}}{2 \cdot 10} = 33,522,128,640
 ```
 ### Part B:
-Now we have essentially the same question except $4$ people - Jim, Amahd, Mark, and Sana - must all sitting at the table.  This means we can count the number of permutations that *do not* include them and subtract it from our total: 
+Now we have essentially the same question except $4$ people - Jim, Amahd, Mark, and Sana - must all be sitting at the table.  
+We can oberve the following:  
+  * These $4$ people can form a permutation of length $4!$
+  * There are ${10 \choose 4}$ ways to choose $4$ of $10$ seats
+  * There are $\prescript{16}{}{P}_6$ ways to arrange the other $6$ people sitting at the table
+  * We must divide by $2 \cdot 10$ to remove rotations and reflections
+
+    
 ```math
-\dfrac{\prescript{20}{}{P}_{10} - \prescript{16}{}{P}_{10} }{20} = 28,398,988,800
+\dfrac{ 4! \cdot {10 \choose 4} \cdot \prescript{16}{}{P}_{6} }{2 \cdot 10} = 145,297,152
 ```
 
 ### Part C:
