@@ -80,7 +80,7 @@ After adding up the rows of each table (excluding headers) we get $1+2+3+4+5+6$,
 To fix this, we double the number of rows in every case except for the last.  We do not double the number of rows in the last case because there are $5$ fish in each aquarium.  
 This gives us the equation:
 ```math
-n + \sum_{i=1}^{n-1} 2i
+(n+1) + \sum_{i=1}^{n} 2i
 ```
 Where $n$ is the number of each type of fish.  
 Which is a way more complicated way of saying:
