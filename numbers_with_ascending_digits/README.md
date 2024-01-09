@@ -51,7 +51,7 @@ We solve this equation for $a_7$ because - as previously mentioned - we can elim
 ```math
 a_7 = 84
 ```
-We can also use summation notation:
+We can also express this with summation notation:
 ```math
 \sum_{n = 1}^7 \sum_{i=1}^n i = 84
 ```
