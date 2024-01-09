@@ -19,7 +19,7 @@ That's it!  Just $1$.  Now let's do that for numbers beginning with $6$.
 ```math
 689
 ```
-We can see $2$ numbers that have $7$ in the middle and $1$ with $8$ in the middle.  Let's do it for the $5$-hudereds:  
+We can see $2$ numbers that have $7$ in the middle and $1$ with $8$ in the middle.  Let's do it for the $5$-hundreds:  
 ```math
 5\textcolor{blue}{67}
 ```
