@@ -7,17 +7,17 @@
 We are counting $3$ digit numbers with ascending digits, so we can eliminate all numbers $\ge 800$ and $\le 99$.  
 This means our numbers will all begin with $1$ through $7$.  Let's enumerate numbers that start with $7$ and have all ascending digits:
 ```math
-789
+7\textcolor{red}{89}
 ```
 That's it!  Just $1$.  Now let's do that for numbers beginning with $6$.
 ```math
-678
+6\textcolor{green}{78}
 ```
 ```math
-679
+6\textcolor{green}{79}
 ```
 ```math
-689
+6\textcolor{red}{89}
 ```
 We can see $2$ numbers that have $7$ in the middle and $1$ with $8$ in the middle.  Let's do it for the $5$-hundreds:  
 ```math
