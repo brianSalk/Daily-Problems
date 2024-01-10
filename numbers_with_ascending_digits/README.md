@@ -38,11 +38,11 @@ We can see $2$ numbers that have $7$ in the middle and $1$ with $8$ in the middl
 ```math
 5\textcolor{red}{89}
 ```
-Now do you see that pattern?  I colored the last two digits to make it more obvious.  
+Now do you see that pattern?  I colored the last two digits to make the pattern clearer.  
  
 We can use the following recursive equation to solve this problem:
 ```math
-\text{Recursive Case: }a_n = a_{n-1} + n
+\text{Recursive Case: }a_n = a_{n-1} + \dfrac{n \cdot (n+1)}{2}
 ```
 ```math
 \text{Base Case: } a_1 = 1
