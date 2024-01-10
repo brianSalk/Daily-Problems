@@ -56,3 +56,12 @@ We can also express this with nested summation notation:
 \sum_{n = 1}^7 \sum_{i=1}^n i = 84
 ```
 In either case, what we are doing is summing up all the sums from $1$ to $7$.
+### Part B
+For part B we need to count all the $4$ digit numbers who's digits are strictly ascending.  It is not at all obvious - at first glance - whether increasing the number of digits will yield a heigher or lower count.  
+The following is the best I could come up with:
+```math
+\sum_{n=1}^{6} \sum_{i=1}^{n} \sum_{j=1}^{i} j = 126
+```
+This is not very satisfying because it is difficult to calculate by hand, but here is the break-down:  
+ * Since we have $4$ digits, we only care about numbers starting with $1$ through $6$
+ * Then we basically put the previous equation inside the new bounds.  
