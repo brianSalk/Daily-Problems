@@ -1,6 +1,6 @@
 ## Numbers with Ascending Digits
 <details><summary><b>A)</b> How many $3$ digit positive numbers have all ascending digits?</summary>84</details>
-<details><summary><b>B)</b> How many $4$ digit positive numbers have all ascending digits?</summary></details>
+<details><summary><b>B)</b> How many $4$ digit positive numbers have all ascending digits?</summary>126</details>
 
 ## Explainations:
 ### Part A 
