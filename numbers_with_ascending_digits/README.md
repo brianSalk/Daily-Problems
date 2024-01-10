@@ -42,7 +42,7 @@ Now do you see that pattern?  I colored the last two digits to make the pattern 
  
 We can use the following recursive equation to solve this problem:
 ```math
-\text{Recursive Case: }a_n = a_{n-1} + \dfrac{n \cdot (n+1)}{2}
+\text{Recursive Case: }a_n = a_{n-1} + n\dfrac{n+1}{2}
 ```
 ```math
 \text{Base Case: } a_1 = 1
@@ -51,7 +51,8 @@ We solve this equation for $a_7$ because - as previously mentioned - we can elim
 ```math
 a_7 = 84
 ```
-We can also express this with summation notation:
+We can also express this with nested summation notation:
 ```math
 \sum_{n = 1}^7 \sum_{i=1}^n i = 84
 ```
+In either case, what we are doing is summing up all the sums from $1$ to $7$.
