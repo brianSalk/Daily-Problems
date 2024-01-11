@@ -1,6 +1,8 @@
 ## Numbers with Ascending Digits
 <details><summary><b>A)</b> How many $3$ digit positive numbers have all ascending digits?</summary>84</details>
 <details><summary><b>B)</b> How many $4$ digit positive numbers have all ascending digits?</summary>126</details>
+<details><summary><b>- BONUS QUESTION - </b>Find a simple formula to count numbers with $n$ digits with ascending digits where $0\le n\le 9$</summary>${9 \choose n}$</details>
+
 
 ## Explainations:
 ### Part A 
@@ -64,4 +66,11 @@ The following is the best I could come up with:
 ```
 This is not very satisfying because it is difficult to calculate by hand, but here is the break-down:  
  * Since we have $4$ digits, we only care about numbers starting with $1$ through $6$
- * Then we basically put the previous equation inside the new bounds.  
+ * Then we basically put the previous equation inside the new bounds.
+
+### Bonus Question
+It would not be fun to have to keep nesting the summations deeper and deeper each time you want to add a number, so if you want a generic formula that will work for numbers up to $9$ digits (numbers with 10 or more digits cannot have strictly ascending digits) we use this simple equation:
+```math
+{ 9 \choose n}
+```
+You will also notice that the file that contains the simulation proof of this ends in `.cpp` not `.py`.  I found the python script was just too slow to be of use.
