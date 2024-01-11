@@ -16,7 +16,7 @@ Since there are $5$ digits in the password and $2$ letters, we use $10^5$ and $2
 Now we have $3$ different types of characters in our password: digits uppercase letters, and lowercase letters.  This means we must use the **multinomial theorem** ${10 \choose 5, \space 3, \space 2}$ to count the ways we can place each type of character.  
 Next we use the product rule to count digits $10^5$, uppercase letters $26^2$ and lowercase letters $26^3$.  
 ```math
-{10 \choose 5, \space 3, \space 2} \cdot 26^2 \cdot 26^3
+{10 \choose 5, \space 3, \space 2} \dot 10^5 \cdot \cdot 26^2 \cdot 26^3
 ```
 ### Part C
 This time around we told that the password starts with $5$ digits and ends with $3$ letters, so we do not need to use the binomial coefficient to count ways to place letters/numbers.  
