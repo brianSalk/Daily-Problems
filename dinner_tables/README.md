@@ -11,7 +11,7 @@ If we do not care where people sit spacially or who is on which side of whom, bu
 
 ### Part A:
 Let's establish a few facts right away that will help us with all three of the problems.  
-There are $n=20$ people and we want to seat $t=10$ of them.  This is a permutation of $10$ from $20$ and we use the formula $\prescript{20}{}{P}_{10}$.  
+There are $n=20$ people, and we want to seat $t=10$ of them.  This is a permutation of $10$ from $20$, so we use the formula $\prescript{20}{}{P}_{10}$.  
 But we don't care about where in the room people are sitting, but only whom they are sitting next to,  
 so we want to eliminate ***rotations*** and ***reflections***.  
 #### Rotations
