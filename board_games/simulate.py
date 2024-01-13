@@ -40,7 +40,7 @@ if __name__ == "__main__":
             count += 1
             for equal in get_rotations(each):
                 seatings.add(equal)
-    print(count)
+    print(f'QA: {count}')
 
 
     seatings = set()
@@ -50,4 +50,15 @@ if __name__ == "__main__":
             count += 1
             for equal in get_rotations(each):
                 seatings.add(equal)
-    print(count)
+    print(f'QB: {count}')
+
+
+    seatings = set()
+    count = 0
+    for each in permutations(players):
+        if each not in seatings and not is_sublist("AB", each) and not is_sublist("BA", each):
+            count += 1
+            for equal in get_rotations(each):
+                seatings.add(equal)
+    print(f'QC: {count}')
+
