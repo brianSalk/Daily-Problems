@@ -1,8 +1,8 @@
 ## Coins in Bags
 We have $5$ unique coins (Penney, Nickle, Dime, Quarter, and Dollar) and $3$ unique bags (Small, Medium, and Large):
 ### How many ways can we distribute the $5$ coins into the $3$ bags if:
-  <details><summary><b>A) </b>each coin must be placed in a bag?</summary>243</details>
-  <details><summary><b>B) </b>each coin must be placed in a bag and each bag must have at least $1$ coin?</summary>150</details>
+  <details><summary><b>A) </b>each coin must be placed in a bag?</summary>$5^3 = 243$</details>
+  <details><summary><b>B) </b>each coin must be placed in a bag and each bag must have at least $1$ coin?</summary>$\left\{\prescript{5}{3}{}\right\}3! = 150$</details>
   <details><summary><b>C) </b>each bag can hold <em>at most</em> $1$ coin? (Some coins will not be in a bag)</summary>136</details>
   <details><summary><b>D) </b>each bag must hold <em>exactly</em> $1$ coin? (Some coins will not be in a bag)</summary>60</details>
   
