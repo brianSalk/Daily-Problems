@@ -22,7 +22,8 @@ This can also be expressed as:
 but I prefer to make the division explicit because there are other situations where you will need to divide by $n$, but both ways are valid.  
 ## Part B
 Now the question has a slight modification.  Dave does not want to play directly before Steeve.  Let's count all the seatings that have Steeve playing directly after Dave and elminiate them from the original $24$.  
-If Steeve is sitting to the left of Dave, that only leaves $3$ other players who can move around.  This leaves us with $(5-2)! = 6$ seatings where Steeve follows Dave in the turn order.  
+If Steeve is sitting to the left of Dave, that only leaves $3$ other players who can be seated anywhere.  This leaves us with $(5-2)! = 3!$ seatings where Steeve follows Dave in the turn order.  
+We subtract those seatings from the total to get:
 ```math
 \dfrac{5!}{5} - 3! = 18
 ```
