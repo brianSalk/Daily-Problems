@@ -8,6 +8,7 @@ class cycle_set(set):
     def __enumerate_rotations(self, cycle):
         for i in range(len(cycle)):
             yield cycle[i:] + cycle[:i]
+
     def __enumerate_reflections(self, cycle):
         yield cycle
         yield cycle[::-1]
@@ -34,10 +35,10 @@ class cycle_set(set):
         if should_add:
             super().add(elem)
 
-
     def update(self, elems):
         for elem in elems:
             self.add(elem)
+
     def __contains__(self, elem):
         if self.exclude_both:
             for rotation in self.__enumerate_rotations(elem):
