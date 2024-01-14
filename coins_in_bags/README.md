@@ -74,7 +74,7 @@ Our formula for this is as follows:
     
 When we plug in our variables $k=5$ and $n=3$ we get:
 ```math
-\sum_{i=0}^{3} \prescript{5}{}{P}_i {n \choose i} = 136
+\sum_{i=0}^{3} \prescript{5}{}{P}_i {3 \choose i} = 136
 ```
 
 ### Part D:
