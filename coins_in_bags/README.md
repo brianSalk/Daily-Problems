@@ -69,7 +69,7 @@ Our formula for this is as follows:
 \sum_{i=0}^{n} \prescript{k}{}{P}_i {n \choose i}
 ```
   * There are $\prescript{k}{}{P}_0 { n \choose 0} = 0$ ways to arrange $0$ of $k$ coins in each of the $n$ bags.
-  * There are $\prescript{k}{}{P}_1 { n \choose 1} ways to arrange $1$ of $k$ coins in each of the $n$ bags.  
+  * There are $\prescript{k}{}{P}_1 { n \choose 1}$ ways to arrange $1$ of $k$ coins in each of the $n$ bags.  
   * Continue up to $n$ ...
     
 When we plug in our variables we get:
