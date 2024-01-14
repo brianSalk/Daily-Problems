@@ -72,9 +72,9 @@ Our formula for this is as follows:
   * There are $\prescript{k}{}{P}_1 { n \choose 1}$ ways to arrange $1$ of $k$ coins in each of the $n$ bags.  
   * Continue up to $n$ ...
     
-When we plug in our variables we get:
+When we plug in our variables $k=5$ and $n=3$ we get:
 ```math
-\sum_{i=0}^{5} \prescript{5}{}{P}_i {5 \choose i} = 136
+\sum_{i=0}^{3} \prescript{5}{}{P}_i {n \choose i} = 136
 ```
 
 ### Part D:
