@@ -1,7 +1,7 @@
 # Daily Problems
 Answers, explainations and code for each of the daily problems on my youtube channel  
 
-<details><summary>Prerequisits</summary>
+<details><summary>Click here to see the prerequisits for most of these puzzles</summary>
   <h1>Things you should be familiar with before attempting these problems</h1>
   <p><b>Addition Rule:</b> Count number of ways that mutually exclusive events can happen.</p>
   <p>  Expample: How many ways can I order one of $3$ sandwiches <em>or</em> one of $2$ soups?  $3+2$</p>
