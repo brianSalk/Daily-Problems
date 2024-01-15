@@ -12,7 +12,7 @@ Answers, explainations and code for each of the daily problems on my youtube cha
   <p><b>Factoials:</b> $n!$</p>
   <p>  Example: $5! = 5 \cdot 4 \cdot 3 \cdot 2$</p>
   <p><b>Permutations:</b> $\prescript{n}{}{P}_r$</p>
-  <p>  Example: $\prescript{5}{}{P}_3 = 5 \cdot 4 \cdot 3 = \dfrac{5!}{2!}$
+  <p>  Example: $\prescript{5}{}{P}_3 = 5 \cdot 4 \cdot 3 = \dfrac{5!}{(5-3-1)!}$
   <p><b>Binomial Theorem:</b>  ${ n \choose r }$</p>
   <p>  Example: ${ 5 \choose 3} = \dfrac{5!}{(5-3-1)! \cdot 3!}$</p>
   <br><br>
