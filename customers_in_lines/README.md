@@ -2,7 +2,7 @@
 $5$ customers are ready to pay for their groceries at the grocery store.  
 there are $2$ cash registers.  
 ### How many unique ways can all the customers line up to buy groceries?
-<details><summary>Answer</summary>$$\sum_{i=0}^5 i! (5-i)! {n \choose i} = 1,560$$</details>
+<details><summary>Answer</summary>$$\sum_{i=0}^5 i! (5-i)! {n \choose i} = 720$$</details>
 
 ## Explaination
 Start by counting how many ways that $5$ customers can line up at the first cash register.  We know that is simply $5!$.  
@@ -16,6 +16,6 @@ ways that $3$ of $5$ customers can line up at one cash register and $2$ of $5$ c
 
 Following this pattern gives us
 ```math
-\sum_{i=0}^5 i! (5-i)! {5 \choose i} = 1,560
+\sum_{i=0}^5 i! (5-i)! {5 \choose i} = 720
 ```
 ways that the customers can line up at two cash registers.
