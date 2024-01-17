@@ -27,7 +27,7 @@ We subtract those seatings from the total to get:
 ```math
 \dfrac{5!}{5} - 3! = 18
 ```
-Part C
+## Part C
 Now in this last question, Dave and Steeve do not want to sit next to eachother.  we can handle this by subtracting $2 \cdot 3!$ from our original answer.  we subtract $3!$ once for Dave playing before Steeve and once for Steeve playing before Dave.  This leaves us with the final answer of:
 ```math
 \dfrac{5!}{5} - 2 \cdot 3! = 12
