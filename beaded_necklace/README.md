@@ -35,7 +35,7 @@ If you did ${9 \choose 3}$ instead, then you were close, but that would include 
 
 ### Part B:
 Just like last time, we are counting how many necklaces we can create with $3$ large beads and $6$ small beads, but this time the large beads are all unique so the order matters.  
-It might be tempting to just multiply the last answer by $3!$ because now the order of the large beads matters.  This however, will over-count reflections and rotations in cases where $2$ or more of the large beads are evenly spaced.  What we must do instead is multiply each position of the large beads ${6 \choose 3}$ and multiply that by the number of large beads $3!$.  Then you divide by $2 \cdot 9$ to remove rotations and reflections.  
+It might be tempting to just multiply the last answer by $3!$ because now the order of the large beads matters.  This however, will over-count reflections and rotations in cases where $2$ or more of the large beads are evenly spaced.  What we must do instead is count each position of the large beads including reflections and rotations ${9 \choose 3}$ and multiply that by the number of large beads $3!$.  Then you divide by $2 \cdot 9$ to remove rotations and reflections.  
 ```math
 \dfrac{{9 \choose 3} 3!}{2 \cdot 9} = 28
 ```
