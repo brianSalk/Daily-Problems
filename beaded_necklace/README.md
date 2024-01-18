@@ -30,7 +30,7 @@ Here are all the ways we can partition $9$ into $3$ positive integers:
 4+3+2
 3+3+3
 ```
-We can count $7$ partitions, so the answer to part A is $7$.  This makes sense if you think of each bead as a node in a graph and each bead is connected to $2$ other nodes via an edge.  Then you count the number of edges from one large bead to the next.  
+We can count $7$ partitions, so the answer to part A is $7$.  This makes sense if you think of each bead as a node in a graph and each bead is connected to exactly $2$ other nodes via an edge.  Then you count the number of edges from one large bead to the next.  
 If you did ${9 \choose 3}$ instead, then you were close, but that would include rotations and reflections.
 
 ### Part B:
