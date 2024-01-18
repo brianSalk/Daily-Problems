@@ -24,10 +24,10 @@ Continuing this pattern gives us
 ways that the customers can line up at two cash registers.  
 ### But wait...
 #### Is there an easier way of doing this?
-$720$ is a number that we might be familiar with if we have done a lot of combinatorics problems before.  We might recognize it from $6!$.  
+$720$ is a number that we might be familiar with if we have done a lot of combinatorics problems before.  We might recognize it as $6!$   
 Hmmmm... What if we could simplify the above equation?  
 It turns out we can, and the simpler equation is
 ```math
 6! = 720
 ```
-I did not realize this until I looked I did $3$ by hand and got $24$.  I suspected at that point that it was not a coincidence that both numbers were familiar factorials.
+I did not realize this until I looked I did $3$ by hand and got $24$.  I suspected at that point that it was not a coincidence that both numbers were familiar factorials.  You may now be wondering, if this way is so much simpler then why did I even leave all the other stuff in there?  The above equations are another way of looking at the problem and can be useful depending on what you need to know.  If there were restrictions as to how many people could line up at a register, then the above equation would be much more useful.  Combinatorics is not about memorizing equations.  No math should really be about memorizing equations, but equations for counting problems have a tendency to not generalize well.  It is often the case that adding or removing a restriction completly changes the equation.
