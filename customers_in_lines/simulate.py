@@ -1,6 +1,7 @@
 from math import factorial, perm, comb
 from itertools import permutations, combinations_with_replacement
 
+
 if __name__ == "__main__":
     customers = "ABCDE"
     ans = set()
