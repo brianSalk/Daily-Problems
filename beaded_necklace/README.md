@@ -14,7 +14,7 @@ We will use `*` for a small bead and `O` for a large bead:
 ```
                     O              O          O
                   *    O         *    O     *    O
-                 *      O       *      *   *      *
+                 *      O       *      *   *      *    etc.
                   *     *        *     O    *    *
                     * *            * *       * O
 ```
