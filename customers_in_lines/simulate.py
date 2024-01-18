@@ -1,6 +1,11 @@
 from math import factorial, perm, comb
 from itertools import permutations, combinations_with_replacement
 
+def equation(num_customers):
+    ans = 0
+    for i in range(num_customers + 1):
+        ans += factorial(num_customers - i) * factorial(i) * comb(num_customers, i)
+    return ans
 
 if __name__ == "__main__":
     customers = "ABCDE"
@@ -13,4 +18,7 @@ if __name__ == "__main__":
             a, b = registers
             ans.add((tuple(a),tuple(b)))
             
-    print(len(ans))
+    if len(ans) != equation(len(customers)):
+        print(f'Equation; {equation(len(customers))}, Simulation: {len(ans)}')
+    else:
+        print(f'{len(customers)} can form 2 lines {len(ans)} different ways')
