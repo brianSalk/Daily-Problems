@@ -4,6 +4,9 @@ We want fill our buckets so that each bucket has at least one ball.
 You do not need to place every ball in a bucket.  
 With these considerations in mind,  
 ### How many ways can I place $7$ balls in $3$ buckets so each bucket has at least one ball?
+<details><summary>Answer</summary>$$\left({4 \choose 4}\right) = {4 + 4 -1 \choose 4 - 1} = {7 \choose 3 } = 35$$</details>
+
+## Explaination
 When given a problem such as this one, it is often useful to re-phrase the question in simpler terms.  
 Let's do the following to make this problem easier to solve:  
   * because we do not need to put every ball in a bucket, let's invent a new $4th$ bucket represents not putting a ball in a bucket.
