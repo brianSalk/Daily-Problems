@@ -10,7 +10,7 @@ We are making necklaces out of beads and string
 
 ### Part A
 Let's start to enumerate these by hand then we can start to look for a pattern.  
-We will use * for a small bead and O for a large bead:  
+We will use `*` for a small bead and `O` for a large bead:  
 ```
                     O              O          O
                   *    O         *    O     *    O
