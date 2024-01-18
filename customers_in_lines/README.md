@@ -12,9 +12,12 @@ Next we count ways that $3$ customers can line up at one cash register and $2$ a
 ```math
 3! \cdot 2! \cdot {5 \choose 2}
 ```
-ways that $3$ of $5$ customers can line up at one cash register and $2$ of $5$ can line up at the other.  
+ways that $3$ of $5$ customers can line up at one cash register and $2$ of $5$ can line up at the other, with ${5 \choose 2}$ ways to choose the $2$ customers who line up at the second register.  
+Notice that we could have done ${5 \choose 3}$ and gotten the same answer due to symmatry (look up pascal's triangle for more info on that).  
 
-Following this pattern gives us
+  
+
+Continuing this pattern gives us
 ```math
 \sum_{i=0}^5 i! (5-i)! {5 \choose i} = 720
 ```
