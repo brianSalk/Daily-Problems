@@ -21,4 +21,13 @@ Continuing this pattern gives us
 ```math
 \sum_{i=0}^5 i! (5-i)! {5 \choose i} = 720
 ```
-ways that the customers can line up at two cash registers.
+ways that the customers can line up at two cash registers.  
+### But wait...
+#### Is there an easier way of doing this?
+$720$ is a number that we might be familiar with if we have done a lot of combinatorics problems before.  We might recognize it from $6!$.  
+Hmmmm... What if we could simplify the above equation?  
+It turns out we can, and the simpler equation is
+```math
+6! = 720
+```
+I did not realize this until I looked I did $3$ by hand and got $24$.  I suspected at that point that it was not a coincidence that both numbers were familiar factorials.
