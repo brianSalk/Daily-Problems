@@ -35,4 +35,7 @@ and the probability of being delt $2$ pairs is
 \dfrac{123,552}{{52 \choose 5}} \approx 0.047.
 ```
 ### Part C
-For $3$ of a kind, there are ${4 \choose 3} = 4$ ways to choose $3$ of $4$ cards of a rank and ${13 \choose 1} = 13$ ways to choose $1$ of the $13$ ranks.  Next we choose $2$ other cards - one each - from the remaining $12$ ranks ${4 \choose 2}^2 \cdot {12 \choose 2}$.  
+For $3$ of a kind, there are ${4 \choose 3} = 4$ ways to choose $3$ of $4$ cards of a rank and ${13 \choose 1} = 13$ ways to choose $1$ of the $13$ ranks.  Next we choose $2$ other cards - one each - from the remaining $12$ ranks ${4 \choose 1}^2 \cdot {12 \choose 2}$.  This gives a final probabilility of
+```math
+\dfrac{{4 \choose 3} \cdot {13 \choose 1} \cdot {4 \choose 1}^2 \cdot {12 \choose 2}}{{52 \choose 5}} = \dfrac{54,912}{{ 52 \choose 5}} \approx 0.0211.
+```
