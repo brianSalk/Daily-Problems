@@ -23,4 +23,16 @@ ways of being delt exaclty $2$ pairs in a $5$ card hand.  We must divide this nu
 ```math
 \dfrac{{4 \choose 2} \cdot {13 \choose 1} \cdot {4 \choose 1}^3 \cdot {12 \choose 3}}{{52 \choose 5}} = \dfrac{1,098,240}{{52 \choose 5}} \approx 0.423.
 ```
-
+### Part B
+This time we want to count the ways a player can be delt exactly $2$ pairs.  Just like before, there are ${4 \choose 2}$ ways to choose $2$ cards of the same rank, except this time we have ${13 \choose 2}$ ways to choose the ranks that we have pairs of.  Since we have two pairs, we use ${4 \choose 2}^2$.  
+Now we have $1$ extra card to pick and it must not have the same rank as either of the previous pairs (a hand with one pair and three-of-a-kind is called a ***full house***).  There are ${11 \choose 1} \cdot {4 \choose 1} = 44$ cards to choose from.  
+So the number of ways you can be delt $2$ pairs is
+```math
+{4 \choose 2}^2 \cdot {13 \choose 2} \cdot {4 \choose 1} \cdot {11 \choose 1} = 123,552
+```
+and the probability of being delt $2$ pairs is
+```math
+\dfrac{123,552}{{52 \choose 5}} \approx 0.047.
+```
+### Part C
+For $3$ of a kind, there are ${4 \choose 3} = 4$ ways to choose $3$ of $4$ cards of a rank and ${13 \choose 1} = 13$ ways to choose $1$ of the $13$ ranks.  Next we choose $2$ other cards - one each - from the remaining $12$ ranks ${4 \choose 2}^2 \cdot {12 \choose 2}$.  
