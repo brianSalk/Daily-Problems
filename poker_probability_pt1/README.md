@@ -39,3 +39,9 @@ For $3$ of a kind, there are ${4 \choose 3} = 4$ ways to choose $3$ of $4$ cards
 ```math
 \dfrac{{4 \choose 3} \cdot {13 \choose 1} \cdot {4 \choose 1}^2 \cdot {12 \choose 2}}{{52 \choose 5}} = \dfrac{54,912}{{ 52 \choose 5}} \approx 0.0211.
 ```
+### Part D
+There are ${4 \choose 4} = 1$ way to get $4$ of a kind and ${13 \choose 1} = 13$ ranks to choose from.  After this there is only $1$ other card and it can be one of the other ${4 \choose 1} \cdot {12 \choose 1} = 48$ cards in the deck.  This leaves us with the comparativly simple equation of
+```math
+\dfrac{{4 \choose 4} \cdot {13 \choose 1} \cdot {4 \choose 1} \cdot {12 \choose 1}}{{52 \choose 5}} = \dfrac{624}{{52 \choose 5}} \approx 0.0002
+```
+
