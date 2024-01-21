@@ -10,7 +10,7 @@ Since we are asking about probability, our answer to all the above questions mus
 ```math
 {52 \choose 5} = 2,598,960
 ```
-because we do not care about the order of the cards in the players hand.  
+because we do not care about the order of the cards in the players hand, we use binomial coefficients, not permutations.  
 We must also talk about some properties of a standard deck of cards.  In a standard deck of cards, there are $52$ cards.  Each card has a ***suite*** and a ***rank***, where the rank is either a number $2$ through $10$ or a letter $J$, $Q$, $K$ or, $A$ making a total of 13 ranks.  There are $4$ cards of each rank.  For these problems, we only care about rank and will not mention suite.  
 Now all we need to do is count the ways of being delt each hand.
 ### Part A
