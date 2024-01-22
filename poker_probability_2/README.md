@@ -10,12 +10,12 @@ Because there are $4$ suits, there are $13$ cards of each of the above suits and
 The above questions ask for probabilities.  A probability is a number between $0$ and $1$ inclusive, where $0$ means the event will never happen and $1$ means the event is guarenteed to happen.  
 For poker probabilities we need to find divide the number of ways to create the specific hand and divide that by the total number of hands.
 ```math
-P(\text{being delt specific}) = \dfrac{\text{ways to make specific hand}}{\text{total number of hands}}
+P(\text{being delt specific hand}) = \dfrac{\text{ways to make specific hand}}{\text{total number of hands}}
 ```
 The **number of total hands** is 
 ```math
 {52 \choose 5} = 2,598,960
 ```
-for these problems, we will just use ${52 \choose 5}$ instead of 2,598,960.
+for these problems, we will just use ${52 \choose 5}$ instead of $2,598,960$.
 
 
