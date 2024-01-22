@@ -18,7 +18,7 @@ The **number of total hands** is
 ```
 for these problems, we will just use ${52 \choose 5}$ instead of $2,598,960$.  
 ### Part A
-For part A, we want all of our cards to have the same suit.  Since there are $4$ suits, there are ${4 \choose 1} = 4$ ways to pick the suit.  Now we just need to choose $5$ of the $13$ cards in that suit ${13 \choose 5}$.  This gives us all the flushes, but this also counts ***straight flushes***.  Let's count straight flushes and eleminate them from the flushes.  There are $13 - 5 + 2 = 10 \textdagger$ ways to form sequences of length $5$ from $13$ ranks and ${4 \choose 1} = 4$ suits to choose from.  This gives us a frequency of
+For part A, we want all of our cards to have the same suit.  Since there are $4$ suits, there are ${4 \choose 1} = 4$ ways to pick the suit.  Now we just need to choose $5$ of the $13$ cards in that suit ${13 \choose 5}$.  This gives us all the flushes, but this also counts ***straight flushes***.  Let's count straight flushes and eleminate them from the flushes.  There are $13 - 5 + 1 + 1 = 10 \textdagger$ ways to form sequences of length $5$ from $13$ ranks and ${4 \choose 1} = 4$ suits to choose from.  This gives us a frequency of
 
 ```math
 {4 \choose 1} \cdot {13 \choose 5} - 10 {4 \choose 1} = 5,108
@@ -28,5 +28,15 @@ Divide this by ${52 \choose 5}$ to get a probability of
 ```math
 \dfrac{{4 \choose 1} \cdot {13 \choose 5} - 10 {4 \choose 1}}{{52 \choose 5}} \approx 0.002
 ```
-
+### Part B
+Now we are counting straights, excluding straight flushes.  As stated in part A, there are $13 - 5 + 1 + 1 = 10$ ways to make a straight from the ranks alone.  Each card can be of any suit, so we multiply by $4^5$.  We have the count for straight flushes from the previous answer, which is $10{4 \choose 1}$.  This leaves us with
+```math
+\dfrac{10 \cdot 4^5 - 10 {4 \choose 1}}{{52 \choose 5}} \approx 0.004
+```
+### Part C
+A full house is just a pair and $3$ of a kind.  There are ${4 \choose 2} = 6$ pairs for each of the ${13 \choose 1} = 13$ ranks and ${4 \choose 3} = 4$ ways of making $3$ of a kind for each of the remaining ${12 \choose 1} = 12$ ranks.  This means the probability of being delt a full house is
+```math
+\dfrac{{ 4 \choose 2 } { 13 \choose 1 } { 4 \choose 3 } { 12 \choose 1 }}{{52 \choose 5}} \approx 0.001
+```
+$\textdagger$ You might be wonding where there are $13 - 5 + 1 + 1 = 10$ straights (excluding suit) instead of $10 - 5 + 1 = 9$.  This is because the **Ace** can be the highest or lowest rank.  If you missed this, no big deal, it's just a poker idiosyncrasy.
 
