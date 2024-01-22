@@ -14,7 +14,7 @@ P(\text{being delt specific}) = \dfrac{\text{ways to make specific hand}}{\text{
 ```
 The **number of total hands** is 
 ```math
-{52 \ choose 5} = 2,598,960
+{52 \choose 5} = 2,598,960
 ```
 for these problems, we will just use ${52 \choose 5}$ instead of 2,598,960.
 
