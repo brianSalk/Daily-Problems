@@ -1,8 +1,8 @@
 ## Poker Probabilities II
 Given a standard $52$ card deck of cards, what is the probability of getting the following $5$ card hands?
-<details><summary><b>A) </b> Flush <em>(all 5 cards of the same suit, all $5$ cards <b>not</b> sequential)</em></summary></details>
-<details><summary><b>B) </b> Straight <em>(all 5 cards in sequential rank, <b>not</b> same suit)</em></summary></details>
-<details><summary><b>C) </b> Full House <em>(2 pair and 3 of a kind)</em></summary></details>
+<details><summary><b>A) </b> Flush <em>(all 5 cards of the same suit, all 5 cards <b>not</b> sequential)</em></summary>$$\dfrac{{4 \choose 1} \cdot {13 \choose 5} - 10 {4 \choose 1}}{{52 \choose 5}} \approx 0.002$$</details>
+<details><summary><b>B) </b> Straight <em>(all 5 cards in sequential rank, <b>not</b> same suit)</em></summary>$$\dfrac{10 \cdot 4^5 - 10 {4 \choose 1}}{{52 \choose 5}} \approx 0.004$$</details>
+<details><summary><b>C) </b> Full House <em>(2 pair and 3 of a kind)</em></summary>$$\dfrac{{ 4 \choose 2 } { 13 \choose 1 } { 4 \choose 3 } { 12 \choose 1 }}{{52 \choose 5}} \approx 0.001$$</details>
 
 ## explaination
 Let's start by briefly defining some terms.  A standard deck of $52$ playing cards has $13$ ranks; $2, 3, 4, 5,6,7,8,9,J,Q,K,A$ and $4$ suits; **Clubs**, **spades**, **hearts**, **Diamonds**.  
