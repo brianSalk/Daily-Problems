@@ -10,7 +10,7 @@ The rules are as follows:
   * If a user attempts to guess a word that is not in *Wordle*'s dictionary, the guess is ignored and there are no penalties or hints
     
 Given these rules, answer the following questions:
-  <details><summary><b>A) </b></summary></details>
+  <details><summary><b>A) </b>If the only previous hint was $\textcolor{orange}{H}\textcolor{orange}{E} \textcolor{grey}{LL}\textcolor{green}{O}$, how many ways can you place one $E$ and one $H$, ignoring other letters?</summary></details>
 
 
   
