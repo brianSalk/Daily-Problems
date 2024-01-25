@@ -13,5 +13,20 @@ Given these rules, answer the following questions:
   <details><summary><b>A) </b>If the only previous hint was $\textcolor{orange}{H}\textcolor{orange}{E} \textcolor{grey}{LL}\textcolor{green}{O}$, how many ways can you place one $E$ and one $H$, ignoring other letters?</summary></details>
   <details><summary><b>B) </b>You want to brute-force a wordle word after a first hint of $\textcolor{orange}{S}\textcolor{grey}{M}\textcolor{grey}{A}\textcolor{green}{L}\textcolor{grey}{L}$.  How many ways can you do that? (We don't care if these are real or plausable words)</summary></details>
 
+## Explainations
+### Part B
+If we had no hints, there would exist
+```math
+26^5
+```
+possible guesses because there are $26$ letters in the English alphabet and the word has $5$ letters.  
+Since we already have $1$ green letter, we are only concerned with $4$ letter positions.  Because $M$, $A$, and $L$ are grey, we can elimitate those letters, giving us $(26-3)^4$.  
+Because $S$ is yellow, we know it exists *at least* once in the word, but is not the first letter.  This means the $2_{nd}$, $3_{rd}$ or $5_{th}$ position must b $S$.  There are ${3 \choose 1}$ ways to choose $1$ of those $3$ positions.  We also know that the first letter is not $S$.  This gives us a final count of
+```math
+22(23^2) {3 \choose 1}
+```
+
+
+
 
   
