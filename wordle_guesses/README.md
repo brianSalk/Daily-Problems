@@ -19,9 +19,9 @@ Given these rules, answer the following questions:
 ### Part B
 If we had no hints, there would exist
 ```math
-\textcolor{red}{26^5}
+\textcolor{red}{26}\textcolor{olive}{^5}
 ```
-Possible words because there are $26$ letters in the english alphabet and $5$ positions to place each letter.  
+Possible words because there are $\textcolor{red}{26}$ letters in the english alphabet and $\textcolor{olive}{5}$ positions to place each letter.  
 We can see that $M$, $A$, and $L$ are all not in the word.  Also, the first letter *cannot* be $S$, so that means for the first position we have $\textcolor{cyan}{22}$ choices.  
 Since at least one of the $2_{nd}$, $3_{rd}$, or $5_{th}$ must be $S$, we need to include $\textcolor{brown}{{3 \choose 1}}$ in our equation.  
 The remaining $2$ positions can be any of $23$ letters, giving us $\textcolor{violet}{23^2}$.
