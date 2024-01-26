@@ -20,7 +20,7 @@ Given these rules, answer the following questions:
 If we had no hints, there would exist $26^5$ words because there are $26$ letters in the english alphabet and $5$ positions to place each letter. 
 Because the first letter *cannot* be $S$, we only have 25 possible letters at the first position, giving us $25 \cdot 26^4$ words.  
 Because there *must* be an $L$ in the $4_{th}$ position, we can just focus on the $4$ remaining positions, leaving us with $25 \cdot 26^3$ words.  
-Also, there are no more $L$'s and also no $M$'s or $A$'s in the word, we can subtract $3$ from each position, giving us $22 \cdot 23^3$ words.  
+Also, because there are no more $L$'s and also no $M$'s or $A$'s in the word, we can subtract $3$ from each position, giving us $22 \cdot 23^3$ words.  
 Lastly, We need to have *at least* $1$ $S$ in our word.  Let's subtract all $22^4$ words that do not contain an $S$ for a final count of
 ```math
 22(23^3) - 22^4 = 33,418
