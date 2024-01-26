@@ -17,18 +17,16 @@ Given these rules, answer the following questions:
 ### Part A
 
 ### Part B
-If we had no hints, there would exist
+If we had no hints, there would exist $26^5$ words because there are $26$ letters in the english alphabet and $5$ positions to place each letter. 
+Because the first letter *cannot* be $S$, we only have 25 possible letters at the first position, giving us $25 \cdot 26^4$ words.  
+Because there *must* be an $L$ in the $4_{th}$ position, we can just focus on the $4$ remaining positions, leaving us with $25 \cdot 26^3$ words.  
+Also, there are no more $L$'s and also no $M$'s or $A$'s in the word, we can subtract $3$ from each position, giving us $22 \cdot 23^3$ words.  
+Lastly, We need to have *at least* $1$ $S$ in our word.  Let's subtract all $22^4$ words that do not contain an $S$ for a final count of
 ```math
-\textcolor{red}{26}\textcolor{olive}{^5}
+22(23^3) - 22^4 = 33,418
 ```
-Possible words because there are $\textcolor{red}{26}$ letters in the english alphabet and $\textcolor{olive}{5}$ positions to place each letter.  
-We can see that $M$, $A$, and $L$ are all not in the word.  Also, the first letter *cannot* be $S$, so that means for the first position we have $\textcolor{cyan}{22}$ choices.  
-Since at least one of the $2_{nd}$, $3_{rd}$, or $5_{th}$ must be $S$, we need to include $\textcolor{brown}{{3 \choose 1}}$ in our equation.  
-The remaining $2$ positions can be any of $23$ letters, giving us $\textcolor{violet}{23^2}$.
-All this gives us
-```math
-\textcolor{cyan}{22} \times \textcolor{brown}{{3 \choose 1}} \times \textcolor{violet}{23^2}
-```
+words.  Keep in mind that the vast majority of these "words" would not be actual english words.  If you were trying to create a computer program to guess the wordle words you would be better off using a dictionary of english words like in [this project]()
+
 
 
 
