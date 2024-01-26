@@ -25,7 +25,7 @@ Lastly, We need to have *at least* $1$ $S$ in our word.  Let's subtract all $22^
 ```math
 22(23^3) - 22^4 = 33,418
 ```
-words.  Keep in mind that the vast majority of these "words" would not be actual english words.  If you were trying to create a computer program to guess the wordle words you would be better off using a dictionary of english words like in [this project]()
+words.  Keep in mind that the vast majority of these "words" would not be actual english words.  If you were trying to create a computer program to guess the wordle words you would be better off using a dictionary of english words like in [this project](https://github.com/brianSalk/wordle-bot-python)
 
 
 
