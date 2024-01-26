@@ -1,17 +1,8 @@
-# for this simulation, we cannot use all 26 letters because that would take
-# too long to run and would not be practical unless we have a super computer
-# so we limit the alphabet to 9 letters and use the equation
-# (N-4) * (N-3)^3 - (N-4)^4
-# where N is the number of letters in our alphabet
-
-# if we can demonstrate that the equation works with a small N,
-# it is likely that it will also work for larger values of N
-
 from itertools import product
 
 if __name__ == "__main__":
     ans = set()
-    letters = 'smal56789' # add/subtract characters here to test different values of N
+    letters = 'qwertyuiopasdfghjklzxcvbnm' # add/subtract characters here to test different values of N
     N = len(letters)
     all_words = (N-4) * (N-3)**3
     no_s = (N-4)**4
@@ -32,6 +23,9 @@ if __name__ == "__main__":
         
             
     if len(ans) == equation:
+        print(len(ans))
+    else:
+        print(f'got {len(ans)}, expected {equation}')
         print(len(ans))
     else:
         print(f'got {len(ans)}, expected {equation}')
