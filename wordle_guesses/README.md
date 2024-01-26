@@ -18,7 +18,7 @@ Given these rules, answer the following questions:
 
 ## Explainations
 ### Part A
-We have one green $\textcolor{green}{L}$ and one grey $\textcolor{grey}{L}$.  This means the green $L$ in the $4_{th}$ position must be the only $L$, giving us an answer of
+We have one green $\textcolor{green}{L}$ and one grey $\textcolor{grey}{L}$.  This means the green $L$ in the $4_{th}$ position must be the only $L$, giving us an maximum of
 ```math
 1
 ```
