@@ -59,9 +59,9 @@ As we can see, this is going to be a bit tedious.  I will not list out $case3$ a
 3 + 6 + 10 + 15 = 34
 ```
 ### Stars and Bars: The Easy Way
-I won't go into detail here about the Stars and Bars equation because I have explained it elsewhere, but here is how we can reframe this question.  
+I won't go into detail here about the Stars and Bars equation because I have explained it [elsewhere](https://github.com/brianSalk/Daily-Problems/tree/main/balls_in_buckets_with_at_least_one_ball#here-is-how-stars-and-bars-works), but here is how we can reframe this question.  
 ### We have $4$ identical balls and $4$ distinct buckets, how many ways can we distribute the balls into the buckets if we are not allowed to put all the balls into the $4^{th}$ bucket, which is marked "None"?
-This may seem like a totally different question but it is actually the same as I will attempt to demonstrate.  
+This may seem like a totally different question but it is actually the same as I will demonstrate.  
 We can veiw each of the $3$ types of resources as a distinct bucket.  Let's invent a new resource called "None".  Because we only need to at least $1$ resource, we can put up to $3$ balls into the "None" bucket.  
 Whenever we count ways to put indistinguishable balls into distinguishable buckets, we can use the Stars and Bars equation.  
 What we did here was take a novel problem (count arrangements of plant resources in a specific game) and turned it into a more general problem (putting balls in buckets).  
