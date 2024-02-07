@@ -20,7 +20,8 @@ This allows us to apply a formula called [stars and bars](https://brilliant.org/
   * We can think of each ball as a *star* "*" and the boundries between buckets as *bars* "|".  
   * In our case we have $4$ buckets and $4$ balls (after our modifications).  
   * This means that we need to find all the possible permutations of $4$ *'s and $3$ |'s.
-  * we use the notation $\left({n \choose k}\right)$ to count partitions of $k$ indistinct objects into $n$ distinct partitions
+  * we use the notation $\left({n \choose k}\right)$ to count partitions of $k$ indistinct objects into $n$ distinct categories
+  * The notation $\left({n \choose k}\right)$ is read *"n multichoose k"*
     
 *We use 3 |'s because each | represents a boundry between two categories (or in this case buckets).*  
 Here is a diagram showing where each bucket is:
