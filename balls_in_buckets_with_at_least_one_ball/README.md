@@ -22,7 +22,7 @@ This allows us to apply a formula called [stars and bars](https://brilliant.org/
   * This means that we need to find all the possible permutations of $4$ *'s and $3$ |'s.
   * we use the notation $\left({n \choose k}\right)$ to count partitions of $k$ indistinct objects into $n$ distinct partitions
     
-*We use 3 |'s because each |'s represents a boundry between two categories (or in this case buckets).*  
+*We use 3 |'s because each | represents a boundry between two categories (or in this case buckets).*  
 Here is a diagram showing where each bucket is:
 ```math
 \text{bucket1}\space|\space\text{bucket2}\space|\space\text{bucket3}\space|\space\text{bucket4}
