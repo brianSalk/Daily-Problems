@@ -3,8 +3,9 @@ There is a small grocery store with $9$ employees.  Each week-day, all employees
 Strangly, the order in which each employee arrives is totally random every day and everyone has perfect attendance.  
 ### What is the probability that:
 <details><summary><b>A) </b> the same person shows up first $2$ days in a row?</summary></details>
-<details><summary><b>B) </b>exactly $2$ people show up in the same order $2$ days in a row?</summary></details>
-<details><summary><b>C) </b> everybody shows up in a different order than they did the previous day?</summary></details>
+<details><summary><b>B) </b> everybody shows up in a different order than they did the previous day?</summary></details>
+<details><summary><b>C) </b>exactly $2$ people show up in the same order $2$ days in a row?</summary></details>
+
 
 ## Explaination
 ### Part A
