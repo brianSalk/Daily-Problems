@@ -9,6 +9,6 @@ Strangly, the order in which each employee arrives is totally random every day a
 
 ## Explaination
 ### Part A
-regardless of who showed up yesterday, there will be a probability of $$\dfrac{1}{9}$$ that the same person will show up first the next day because only $1$ person can be first and there are $9$ people total.  
+Regardless of who showed up yesterday, there will be a probability of $$\dfrac{1}{9}$$ that the same person will show up first the next day because only $1$ person can be first and there are $9$ people total.  
 ### Part B
 
