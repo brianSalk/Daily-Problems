@@ -14,9 +14,8 @@ if __name__ == "__main__":
     simulation_answer = 0
     for middle in alphabet:
         for other_six in itertools.combinations(alphabet, 6):
-            if middle in other_six:
-                continue
-            simulation_answer+=1
+            if middle not in other_six:
+                simulation_answer+=1
             
   
     
