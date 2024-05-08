@@ -7,7 +7,7 @@ Given that the New York Times game [Spelling Bee](https://www.nytimes.com/puzzle
 * At least $1$ of the letters must be **A**, **E**, **I**, **O**, or **U**.
 ### How many unique spelling bee's are there?
 ## Explaination
-Before we can solve this problem, we must come up with a game plan, here is the plan:
+Before we can solve this problem, we must come up with some kind of plan, here is the plan I came up with:
 * Count Spelling Bees with a vowel in the middle
 * Count Spelling Bees with a consonant in the middle
 * Add the results from the previous two steps
