@@ -7,27 +7,24 @@
 import math
 import itertools
 
-if __name__ == "__main__":
-    alphabet = "abcdefghijklmnopqrtuvwxyz"
-    vowels = 'aeiou'
-    consonants = 'bcdfghjklmnpqrtvwxyz'
+
+def count_unique_spelling_bees(alphabet, vowels, consonants):
+    def has_at_least_one_vowel(other_six, middle,vowels):
+        for vowel in vowels:
+            if vowel in other_six or vowel == middle:
+                return True
+        return False
     simulation_answer = 0
     for middle in alphabet:
         for other_six in itertools.combinations(alphabet, 6):
             if middle not in other_six:
-                simulation_answer+=1
-            
-  
+                simulation_answer += has_at_least_one_vowel(other_six, middle, vowels)
+    return simulation_answer
+
+
+if __name__ == "__main__":
+    alphabet = "abcdefghijklmnopqrtuvwxyz" # remember that 's' is never used in spelling bees
+    vowels = 'aeiou' # vowels do not include 'y' and 'w'
+    consonants = 'bcdfghjklmnpqrtvwxyz'
     
-    num_letters = len(alphabet)
-    num_vowels = len(vowels)
-    num_consonants = len(consonants)
-    num_outer_letters = 6
-    # we must pick at least one vowel, this vowel can be
-    # the middle letter or an outer letter
-    answer = num_consonants * num_vowels * math.comb(num_letters - 2, num_outer_letters - 1)
-    
-    if simulation_answer == answer:
-        print(f'there are {answer:,} unique spelling bees')
-    else:
-        print(f'{simulation_answer:,} does not match {answer:,}')
+    simulation_answer = count_unique_spelling_bees(alphabet, vowels, consonants)
