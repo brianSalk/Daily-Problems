@@ -28,3 +28,19 @@ if __name__ == "__main__":
     consonants = 'bcdfghjklmnpqrtvwxyz'
     
     simulation_answer = count_unique_spelling_bees(alphabet, vowels, consonants)
+
+    num_letters = len(alphabet)
+    num_vowels = len(vowels)
+    num_consonants = len(consonants)
+    num_outer_letters = 6
+    # first count how many ways a spelling bee can be created with a vowel in the middle
+    vowel_in_middle= num_vowels * math.comb(num_letters -1, 6)
+    # next count how many ways a speeling bee can be created with a consonant in the middle
+    consonant_in_middle= num_consonants * ( math.comb(num_letters-1, 6 ) - math.comb(num_letters-1-num_vowels, 6) )
+    # add both of those solutions together
+    answer = vowel_in_middle + consonant_in_middle
+    
+    if simulation_answer == answer:
+        print(f'there are {answer:,} unique spelling bees')
+    else:
+        print(f'{simulation_answer:,} does not match {answer:,}')
