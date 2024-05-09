@@ -7,6 +7,7 @@ Each day, a new game is created with the following properties.
 * The order of the outer letters does not matter, the only letter who's position is significant is the middle letter.
 Given the above parameters,
 <details><summary><b>How many unique Spelling Bee games are there?</b></summary>$26{25 \choose 6} = 4,604,600$</details>
+
 For now, let's ignore the fact that we might want to avoid Spelling Bee games that do not include vowels as well as any other restrictions.  
 ## Explaination
 As with many combinatorics problems, there exist more than one way to solve this problem.  I will discuss two approaches here.
