@@ -16,7 +16,7 @@ You might start by figuring out how many ways $9$ people can form a line.  For t
 
 But this is an overcount because each person is not considered unique.  
 To get the actual count, we need to eliminate all the permutations that count people with the same shirt color as unique.  
-We do this by dividing $9!$ by the factorial of the size of each group of equivelent colors.  
+We do this by dividing $9!$ by the product of the factorials of the size of each group of equivelent colors.  
 In our case, these group sizes are $4$, $3$, and $2$.  
 Plugging in our variables, we get, 
 ```math
@@ -25,7 +25,7 @@ Plugging in our variables, we get,
 Because this is such a common type of problem to solve, Smart People have decided that the above equation deserves it's own name and notation.  
 The name is **Binomial Coefficient** and the notation is as follows:
 ```math
-{n \choose i_1, \ i_2, \ i_3... } = \dfrac{n!}{i_1 \cdot i_2 \cdot i_3 ...}
+{n \choose i_1, \ i_2, \ i_3... } = \dfrac{n!}{i_1! \cdot i_2! \cdot i_3! \  ...}
 ```
 Where:
 * $n$ is the total number of elements
