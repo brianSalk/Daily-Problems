@@ -11,7 +11,7 @@ If we do not care where people sit spacially or who is on which side of whom, bu
 
 ### Part A:
 Let's establish a few facts right away that will help us with all three of the problems.  
-There are $n=20$ people, and we want to seat $t=10$ of them.  This is a permutation of $10$ from $20$, so we use the formula $\prescript{20}{}{P}_{10}$.  
+There are $n=20$ people, and we want to seat $t=10$ of them.  This is a permutation of $10$ from $20$, so we use the formula ${}^{20}{P}_{10}$.  
 But we don't care about where in the room people are sitting, but only whom they are sitting next to,  
 so we want to eliminate ***rotations*** and ***reflections***.  
 #### Rotations
@@ -29,7 +29,7 @@ Rotations are easiest to understand *via* illustrations such as the following:
 Notice how in each arrangement, each letter has the same left- and right-hand neighbors.  For instance, Imagine the letter A is facing the center of the oval.  His right-hand neighbor is $F$ in every diagram and his left-hand neighbor is $B$.  
 There is $1$ rotation for person sitting at the table, which means we divide by the number of people sitting at the table:
 ```math
-\dfrac{\prescript{20}{}{P}_{10}}{10}
+\dfrac{{}^{20}{P}_{10}}{10}
 ```
 
 #### Reflections
@@ -43,19 +43,19 @@ To understand reflections, compare the following two seating arrangements:
 Here we can see that each letter has the same neighbors, we just switched the left and right neighbors.  Each arrangemnt has exactly $1$ reflection so we divide our total permutations by $2$ to eliminate reflections.  
 To eliminate both rotations and reflections we use:
 ```math
-\dfrac{\prescript{20}{}{P}_{10}}{2 \cdot 10} = 33,522,128,640
+\dfrac{{}^{20}{P}_{10}}{2 \cdot 10} = 33,522,128,640
 ```
 ### Part B:
 Now we have essentially the same question except $4$ people - Jim, Amahd, Mark, and Sana - must all be sitting at the table.  
 We can oberve the following:  
   * These $4$ people can form a permutation of length $4!$
   * There are ${10 \choose 4}$ ways to choose $4$ of $10$ seats
-  * There are $\prescript{16}{}{P}_6$ ways to arrange the other $6$ people sitting at the table
+  * There are ${}^{16}{P}_6$ ways to arrange the other $6$ people sitting at the table
   * We must divide by $2 \cdot 10$ to remove rotations and reflections
 
     
 ```math
-\dfrac{ 4! \cdot {10 \choose 4} \cdot \prescript{16}{}{P}_{6} }{2 \cdot 10} = 145,297,152
+\dfrac{ 4! \cdot {10 \choose 4} \cdot {}^{16}{P}_{6} }{2 \cdot 10} = 145,297,152
 ```
 
 ### Part C:
@@ -65,7 +65,7 @@ Remember that we only care about who the neighbors are and not about the actual 
 The generic (and totally useless!) equation is:
 
 ```math
-\dfrac{f! \cdot \prescript{n-f}{}{P}_{t-f}}{2}
+\dfrac{f! \cdot {}^{n-f}{P}_{t-f}}{2}
 ```
 Where:
   * $n$ is the total number of people at the party
@@ -74,6 +74,6 @@ Where:
     
 Plugging in our variables gives us:
 ```math
-\dfrac{24 \cdot \prescript{16}{}{P}_6}{2} = 69,189,120
+\dfrac{24 \cdot {}^{16}{P}_6}{2} = 69,189,120
 ```
   
