@@ -6,7 +6,7 @@ We are counting permutations that meet the following requirements:
 ### How many such permutations exist?
 ## Explaination:
 This is a great example of when to use inclusion/exclusion principle.  
-First we count permutations of numbers $0$-$9$ without restrictions:
+First we count permutations of numbers $0-9$ without restrictions:
 ```math
 total = 10!
 ```
