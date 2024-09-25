@@ -1,6 +1,6 @@
 ## Permutations With Forbidden Neighbors
 We are counting permutations that meet the following requirements:
-  * permutations of numbers $0$-$9$ with no repeats
+  * permutations of numbers $0$ through $9$ inclusive with no repeats
   * no $4$ may be adjacent to a $5$
   * no $2$ may be adjacent to a $3$
 ### How many such permutations exist?
