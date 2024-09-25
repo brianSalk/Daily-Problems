@@ -32,7 +32,7 @@ no\_ts\_no\_gs = 2^7 = 128
 ```math
 one\_t\_no\_gs = 2^6 \times 7 = 448
 ```
-And lastly we need to count sequences that contain 4 adjacent A's and meet the other restrictions.  For this we will use multinomial coefficient and since the A's are all adjacent we will treat them like one letter that takes up as much space as four letters:  
+And lastly we need to count sequences that contain 4 adjacent A's and meet the other restrictions.  Since the A's are all adjacent we will treat them like one letter that takes up as much space as four letters.  This means we now have $4$ items, one is $AAAA$, one is $G$ and two are $T$.  We can use multinomial coefficient for this:  
 ```math
 too\_many\_as = {4 \choose 2, \space 1, \space 1} = 12
 ```
