@@ -23,7 +23,7 @@ Plugging in our variables, we get,
 \dfrac{9!}{4! \cdot 3! \cdot 2!}
 ```
 Because this is such a common type of problem to solve, Smart People have decided that the above equation deserves it's own name and notation.  
-The name is **Binomial Coefficient** and the notation is as follows:
+The name is **Multinomial Coefficient** and the notation is as follows:
 ```math
 {n \choose i_1, \ i_2, \ i_3... } = \dfrac{n!}{i_1! \cdot i_2! \cdot i_3! \  ...}
 ```
