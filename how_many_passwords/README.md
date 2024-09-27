@@ -24,6 +24,7 @@ There are
 C^{SHORT}
 ```
 $SHORT$ passwords with $C$ characters to choose from. 
+  
 Now we can count the number of $SHORT$ passwords that have $2$ or fewer digits, starting with those containing no digits.
 ```math
 NO\_DIGITS = L^{SHORT} 
