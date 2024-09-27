@@ -11,7 +11,7 @@ Answers, explainations and code for each of the daily problems on my youtube cha
   <p>  Example: How many ways can a die land on an odd number <em>or</em> a number less than $3$? $3 + 2 - 1$</p>
   <p><b>Factoials:</b> $n!$</p>
   <p>  Example: $5! = 5 \cdot 4 \cdot 3 \cdot 2$</p>
-  <p><b>Permutations:</b> $\prescript{n}{}{P}_r$</p>
+  <p><b>Permutations:</b> ${}^{n}{P}_r$</p>
   <p>  Example: $\prescript{5}{}{P}_3 = 5 \cdot 4 \cdot 3 = \dfrac{5!}{(5-3-1)!}$
   <p><b>Binomial Theorem:</b>  ${ n \choose r }$</p>
   <p>  Example: ${ 5 \choose 3} = \dfrac{5!}{(5-3-1)! \cdot 3!}$</p>
