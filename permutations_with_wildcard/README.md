@@ -3,8 +3,8 @@ We are given the five letters $abcde$ and a wildcard $?$, which can be any lower
 How many possible permutations are there?  
 ### Explaination
 We must break this problem down into two cases.  
-First case: $?$ *is not* one of $a$, $b$, $c$, $d$, or $e$.  
-Second case: $?$ *is* one of $a$, $b$, $c$, $d$, or $e$.  
+**First case**: $?$ *is not* one of $a$, $b$, $c$, $d$, or $e$.  
+**Second case**: $?$ *is* one of $a$, $b$, $c$, $d$, or $e$.  
 We solve each case seperatly and add them together for the final answer.  
   
   
