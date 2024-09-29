@@ -8,7 +8,7 @@ Second case: $?$ *is* one of $a$, $b$, $c$, $d$, or $e$.
 We solve each case seperatly and add them together for the final answer.  
   
   
-First Case:
+#### First Case:
 ```math
 (5+1)! (26-5) = 15,120
 ```
@@ -16,7 +16,7 @@ where $5$ is the number of letters we start with (abcde) and $26$ is the number 
  We add $1$ to $5$ because we are actually finding the number of permutations of length $6$ where one letter is a wildcard.  
   
   
-Second Case:
+#### Second Case:
 ```math
 5 \dfrac{6!}{2!} = 1,800
 ```
