@@ -24,7 +24,7 @@ because we only have three ambiguous characters, we can remove the others.  This
 ```
 Since there are $2$ `|`s, $3$ `O`s and $2$ `X`s, there are  
 ```math
-3^2 \cdot 3^3 \codt 2^2 = 972
+3^2 \cdot 3^3 \cdot 2^2 = 972
 ```
 possible passwords that your friend could have intended.  
 ##### Part B
