@@ -13,8 +13,8 @@ Assume all other letters are unambiguous.
 Let's further assume that each ambiguous character has the same probability of appearing in a given position.  
 ### Answer the following questions
 
-<details><summary><em>A) </em> How many possible passwords are there?</summary>$$3^2 \cdot 3^3 \cdot 2^2 = 972$$</details>
-<details><summary><em>C) </em> What is the probability you guess correctly in 3 guesses?</summary>$$\dfrac{3}{972} \approx 0.003$$</details>
+<details><summary><strong>A) </strong> How many possible passwords are there?</summary>$$3^2 \cdot 3^3 \cdot 2^2 = 972$$</details>
+<details><summary><strong>C) </strong> What is the probability you guess correctly in 3 guesses?</summary>$$\dfrac{3}{972} \approx 0.003$$</details>
 
 #### Explaination
 ##### Part A
