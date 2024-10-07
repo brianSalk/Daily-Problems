@@ -8,7 +8,7 @@ There are $6$ people waiting in line to eat
 #### Part A
 Since there are $6$ people and each person is unique, there are
 ```math
-6! = 720
+6! = 6 \cdot 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 720
 ```
 people in line.  Simple!  
   
@@ -20,7 +20,7 @@ Now we have $2$ lines, each of length $3$, so the first line will have
 permutations.  
 To form the second line, we have $3$ people left, this means there are
 ```math
-3! = 6
+3! = 3 \cdot 2 \cdot 1 = 6
 ```
 permutations, so our total is
 ```math
