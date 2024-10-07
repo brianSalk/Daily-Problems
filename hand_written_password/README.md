@@ -23,15 +23,15 @@ because we only have three ambiguous characters, we can remove the others.  This
 ||OOOXX
 ```
 Since there are $2$ `|`s, $3$ `O`s and $2$ `X`s, there are  
-$$
+```math
 3^2 \cdot 3^3 \codt 2^2 = 972
-$$
+```
 possible passwords that your friend could have intended.  
 ##### Part B
 To find the proability that you would guess this correctly in $3$ tries, simply divide $3$ by the answer above.  
-$$
+```math
 \dfrac{3}{972} \approx 0.003
-$$
+```
 
 
 
