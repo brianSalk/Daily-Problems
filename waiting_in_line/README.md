@@ -39,4 +39,4 @@ permutations again.
 #### Summary
 Part A is straight forward and only requires you to know that factorials are used to count permutations.  
 Part B is the same as Part A except the spatial distribution of the people changed.  
-Part C might seem the most odd.  Because mutliplying be $1$ does not change a product, we do not care that we are only selecting $5$ of $6$ people.  
+Part C might seem the most odd.  Because mutliplying by $1$ does not change a product, we do not care that we are only selecting $5$ of $6$ people.  
