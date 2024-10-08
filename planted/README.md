@@ -24,9 +24,17 @@ is the same as
 \textcolor{orange}{sun} \space  \textcolor{blue}{water} \space \textcolor{orange}{sun}.
 ```
 ### Case Work and Enumeration: The Hard Way
-#### Feel free to just read this section without actually going through the steps.
 We can find all the ways for a plant to require $1, 2, 3,$ or $4$ resources, then we can add them up.  
 If a plant requires $1$ resource it can be any $1$ of the $3$ resources so there are
+```math
+\textcolor{orange}{sun}
+```
+```math
+\textcolor{blue}{water}
+```
+```math
+\textcolor{green}{food}
+```
 ```math
 case1 = 3
 ```
@@ -54,7 +62,7 @@ If a plant requires $2$ resources, then we can manually enumerate them:
 case2 = 6
 ```
 When doing this, you need to be careful not to include permutations because the order does not matter.  
-As we can see, this is going to be a bit tedious.  I will not list out $case3$ and $case4$, but instead will just add the counts.  
+As we can see, this is going to be a bit tedious.  I will not show the enumeration for $case3$ and $case4$, you may trust that the numbers are accurate.  
 ```math
 3 + 6 + 10 + 15 = 34
 ```
