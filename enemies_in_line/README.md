@@ -12,13 +12,13 @@ We want to count the number of ways we can arrange the $k$ enemies so no two are
 We can do this by viewing the non-enemies as boundries beween buckets and the enemies as balls that can be placed inside the buckets, leaving us with $(n-k+1)$ buckets.  
 this gives us:
 ```math
-{(n-k + 1) \choose k}
+{n-k + 1 \choose k}
 ```
 ways to put at most one ball in each bucket.  
 But remember, these are indavidual people, not balls in buckets, so let's count permutations of non-enemies and enemies.  
 This gives us the final answer of:
 ```math
-{(n-k+1) \choose k} k! (n-k)!
+{n-k+1 \choose k} k! (n-k)!
 ```
 ways that the people can stand in line.  
 
