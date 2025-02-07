@@ -4,4 +4,6 @@ $n$ people are waiting in line, $k$ of these people are enemies.  *None* of the 
   <summary>How many ways can all $n$ people line up so no enemies are next to eachother?</summary>
   ${n-k+1 \choose k} (n-k)! \cdot k!$
 </details>
+
+
 ### Solution
