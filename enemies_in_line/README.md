@@ -7,3 +7,7 @@ $n$ people are waiting in line, $k$ of these people are enemies.  *None* of the 
 
 
 ### Solution
+First we can pretend that all enemies are indistinguishable and all non-enemies are also indistinguishable from eachother.  
+We want to count the number of ways we can arrange the $k$ enemies so no two are adjacent.  
+We can do this by viewing the non-enemies as boundries beween buckets and the enemies as balls that can be placed inside the buckets.  
+
