@@ -15,5 +15,11 @@ this gives us:
 {(n-k + 1) \choose k}
 ```
 ways to put at most one ball in each bucket.  
+But remember, these are indavidual people, not balls in buckets, so let's count permutations of non-enemies and enemies.  
+This gives us the final answer of:
+```math
+{(n-k+1) \choose k} k! (n-k)!
+```
+ways that the people can stand in line.  
 
 
