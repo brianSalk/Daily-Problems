@@ -23,7 +23,7 @@ if __name__ == '__main__':
                 
     eq = factorial(5) * 2**4
     if eq != len(names):
-        print(f'{eq} does not equal {names}')
+        print(f'{eq} does not equal {len(names)}')
     else:
         print(eq)
 """
