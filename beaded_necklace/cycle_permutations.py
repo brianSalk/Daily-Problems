@@ -94,3 +94,9 @@ if __name__ == "__main__":
     print('PART C')
     count = count_all_distinct(small_beads, large_beads)
     print(f'count = {count}')
+
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
