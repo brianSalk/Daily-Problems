@@ -23,4 +23,10 @@ for _ in range(NUM_TRIALS):
 
 print(f'Probability of guessing the correct password in 3 tries: {correct_count/NUM_TRIALS}')
 
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
+
 
