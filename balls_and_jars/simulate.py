@@ -13,3 +13,9 @@ n = w+r
 p_white_both = (w/n) * (w/n)
 p_white_one_red_other =  (w/n) * (r/n)
 p_red_both = (r/n) * (r/n)
+
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
