@@ -1,3 +1,8 @@
+"""
+Simulate writing name with letters out of order and letters forwards or backwards.
+Since I cannot progamatically write letters backwards, we use upper and lower case.
+"""
+
 from itertools import permutations, combinations
 from math import comb, factorial
 from copy import copy
@@ -21,3 +26,8 @@ if __name__ == '__main__':
         print(f'{eq} does not equal {names}')
     else:
         print(eq)
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
