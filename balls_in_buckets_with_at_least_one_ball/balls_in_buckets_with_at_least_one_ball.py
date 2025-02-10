@@ -16,3 +16,8 @@ if __name__ == '__main__':
         print(each[0:3]) 
     print(f'there are {len(arrangements)} ways to put {balls} balls in 4 buckets where each bucket has at least one ball')
 
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
