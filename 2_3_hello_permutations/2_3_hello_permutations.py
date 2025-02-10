@@ -40,3 +40,8 @@ if __name__ == "__main__":
     print("part 2: count 2 and 3 letter permutations of hello where l's are distinguishable")
     word = "helLo"
     simulate(word)
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
