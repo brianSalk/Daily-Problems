@@ -32,3 +32,9 @@ print(f'P(5 of kind): simulation={count5/NUM_TRIALS:.5f}, equation={eq5:.5f}')
 print(f'P(4 of kind): simulation={count4/NUM_TRIALS:.5f}, equation={eq4:.5f}')
 
 print(f'P(>=3 of kind): simulation={count3/NUM_TRIALS:.4f}, equation={eq3:.4f}')
+
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
