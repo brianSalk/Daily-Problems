@@ -51,6 +51,7 @@ The $2$ dice whose values differ from the $3$ matching dice can each be any of $
 ways to get exactly $3$ of a kind.   
 Now we add the previous counts for $4$ and $5$ to get our final answer of
 ```math
-\dfrac{6{5 \choose 3} 5^2 + 6 \cdot 5 \cdot 5 + 6}{6^5}
+\dfrac{6{5 \choose 2} 5^2 + 6 {5 \choose 1} 5^1 + 6 {6 \choose 0} 5^0}{6^5}
 ```
-ways to get at least $3$ of a kind.
+ways to get at least $3$ of a kind.  
+I rewrote the equation so you can see how to expand upon this equation if needed.
