@@ -12,5 +12,6 @@ What is the probability that
 </details>
 
 <details>
+  $$\dfrac{6{5 \choose 3} 5^2 + 6\cdot 5^2 + 6}{6^5}$$
   <summary>You roll 3 or more of a kind</summary>
 </details>
