@@ -6,6 +6,7 @@ You are rolling $5$ dice at a time, what is the probability that you roll a
 </details>
 
 <details>
+  $\dfrac{4 \cdot 5! + 4 \cdot 3 \cdot \frac{5!}{2}}{6^5}$
   <summary><b>small straight? </b>(1,2,3,4 or 2,3,4,5 or 3,4,5,6)</summary>
 </details>
 
