@@ -9,5 +9,5 @@ You are rolling $5$ dice at a time, what is the probability that
 </details>
 
 <details>
-  <summary>A full house? (2 or one number and 3 of another)</summary>
+  <summary>A full house? (2 of one number and 3 of another)</summary>
 </details>
