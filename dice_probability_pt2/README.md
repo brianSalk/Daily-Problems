@@ -14,6 +14,7 @@ You are rolling $5$ dice at a time, what is the probability that you roll a
   $\dfrac{6 \cdot 5 {5 \choose 3}}{6^5}$
   <summary><b>full house? </b>(2 of one number and 3 of another)</summary>
 </details>
+
 ### Explanation
 We use $6^5$ as our denominator for all probabilties because there are $5$ dice and each die has $6$ sides.
 #### Large Straight
