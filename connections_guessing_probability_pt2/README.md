@@ -1,4 +1,4 @@
-## Question1: NYT Connections Guessing Probability
+## NYT Connections Guessing Probability Part II
 The rules to new york times [Connections](https://www.nytimes.com/games/connections) are as follows:  
   * There are 16 tiles, each tile has a word written on it.  
   * each tile belongs to one of 4 unknown categories according to that tiles word.  
