@@ -6,9 +6,9 @@ The rules to new york times [Connections](https://www.nytimes.com/games/connecti
   * The player continues to do this until all four categories are revealed or the player runs out of guesses and loses.
 
 ### What is the probability of randomly guessing 4 tiles that are all part of the same category when:
-<details> <summary> you have not yet eliminated any categories?</summary> 0.0022 </details>
-<details> <summary>you have guessed and eleminated 1 category?</summary> 0.0061 </details>
-<details> <summary>you have guessed and eleminated 2 categories?</summary> 0.0286 </details>
+<details> <summary> you have not yet eliminated any categories?</summary> $\dfrac{4}{{16 \choose 4}} \approx 0.0022$ </details>
+<details> <summary>you have eleminated 1 category?</summary> $\dfrac{3}{{12 \choose 4}} \approx 0.0061$ </details>
+<details> <summary>you have eleminated 2 categories?</summary> $\dfrac{2}{{8 \choose 4}} \approx 0.0286$ </details>
 
 ### Explaination
 Let's refer to the number of categories remaining (not yet guessed) as $C$.  
