@@ -10,3 +10,6 @@ The rules to new york times [Connections](https://www.nytimes.com/games/connecti
 <details> <summary> you have not yet eliminated any categories?</summary> $\dfrac{4 {4 \choose 3} 12 + 4}{{16 \choose 4} } \approx .108$ </details>
 <details> <summary>you have guessed and eleminated 1 category?</summary> $\dfrac{3 {4 \choose 3} 8 + 3}{{12 \choose 4} } = .2$ </details>
 <details> <summary>you have guessed and eleminated 2 categories?</summary> $\dfrac{2 {4 \choose 3} 4 + 2}{{8 \choose 4} } \approx .486$ </details>
+
+### Explanation
+Let $c$ be the number of categories remaining
