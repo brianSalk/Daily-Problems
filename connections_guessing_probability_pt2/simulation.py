@@ -19,9 +19,13 @@ def guess_correct(num_catogories_already_guessed, num_trials):
             correct_count += 1
     return correct_count / num_trials
     
+
+for c in range(2,5):
+    eq = (c*comb(4,3)*((4*c)-4)+c)   / comb((4*c),4)
+    ans = guess_correct(4-c, 1_000_000)
+    print(f'{c} categories remaining: sim={ans:.4f}, eq={eq:.4f}')
     
-eq4 = (4*comb(4,3)*(16-4)+4)   / comb(16,4)
-ans4 = guess_correct(0, 1_000_000)
+
 
 """
 #*#*#*#*#*#*#*#*#*#*#*#*#*
