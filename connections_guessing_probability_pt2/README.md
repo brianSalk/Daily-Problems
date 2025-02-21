@@ -8,8 +8,17 @@ The rules to new york times [Connections](https://www.nytimes.com/games/connecti
 
 ### What is the probability of randomly guessing 3 or 4 tiles that are all part of the same category when:
 <details> <summary> you have not yet eliminated any categories?</summary> $\dfrac{4 {4 \choose 3} 12 + 4}{{16 \choose 4} } \approx .108$ </details>
-<details> <summary>you have guessed and eleminated 1 category?</summary> $\dfrac{3 {4 \choose 3} 8 + 3}{{12 \choose 4} } = .2$ </details>
-<details> <summary>you have guessed and eleminated 2 categories?</summary> $\dfrac{2 {4 \choose 3} 4 + 2}{{8 \choose 4} } \approx .486$ </details>
+<details> <summary>you have eleminated 1 category?</summary> $\dfrac{3 {4 \choose 3} 8 + 3}{{12 \choose 4} } = .2$ </details>
+<details> <summary>you have eleminated 2 categories?</summary> $\dfrac{2 {4 \choose 3} 4 + 2}{{8 \choose 4} } \approx .486$ </details>
 
 ### Explanation
-Let $c$ be the number of categories remaining
+Let $c$ be the number of categories remaining.  
+
+There are $c$ categories remaining and ${4 \choose 3} = 4$ ways of selecting $3$ tiles of the $4$ tiles that belong to the category, 
+There are $4c-4$ tiles from other categories to choose.  
+Then we have to add in $c$ more, because we could get really lucky and get all $4$.  
+
+This leaves us with the formula:
+```math
+\dfrac{c{4\choose 3}(4c-4) + c}{{4c \choose 4}}
+```
