@@ -2,7 +2,7 @@
 The rules to new york times [Connections](https://www.nytimes.com/games/connections) are as follows:  
   * There are 16 tiles, each tile has a word written on it.  
   * each tile belongs to one of 4 unknown categories according to that tiles word.  
-  * The player is to select four tiles at a time that all belong to the same category.
+  * The player tries to select four tiles at a time that all belong to the same category.
   * The player continues to do this until all four categories are revealed or the player runs out of guesses and loses.
 
 ### What is the probability of randomly guessing 4 tiles that are all part of the same category when:
