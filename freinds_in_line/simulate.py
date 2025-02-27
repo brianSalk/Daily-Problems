@@ -6,7 +6,7 @@ from itertools import permutations
 from math import perm
 
 
-def has_no_isolated_freind(l):
+def has_no_isolated_friend(l):
     l = ('E',) + l + ('E',)
     for i,each in enumerate(l):
         if each == 'F':
@@ -23,7 +23,7 @@ sim=0
 eq = 6 * perm(5)**2 + perm(6,2) * perm(5)**2
 print(eq)
 for perm in permutations(line):
-    sim += has_no_isolated_freind(perm)
+    sim += has_no_isolated_friend(perm)
 print(sim)
 
 """
