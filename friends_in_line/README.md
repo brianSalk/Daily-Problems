@@ -21,4 +21,4 @@ This gives us a final answer of:
 ```math
 6 \cdot 5!^2 + {}^6P_2 \cdot 5!^2= 518,400
 ```
-Unfortunatly, it is difficult to find a generic formula when you have $F$ friends and $S$ strangers.  If you think you found a formula that can generate answers for any numer of friends and strangers, send me a message on github or elsewhere?  
+Unfortunatly, it is difficult to find a generic formula when you have $F$ friends and $S$ strangers.  If you think you found a formula that can generate answers for any numer of friends and strangers, send me a message on github or elsewhere!  
