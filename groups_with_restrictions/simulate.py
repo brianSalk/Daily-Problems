@@ -55,4 +55,17 @@ else:
     print('simulation does not match equation:',
         eq_are_together, are_together)
 
-print('')
+print('person is in group 1 or 2:')
+in_1_or_2 = 0
+eq_in_1_or_2 = int(len(total) * (2/3))
+for b in total:
+    for i, each in enumerate(b):
+        if i in (0,1) and 0 in each:
+            in_1_or_2 += 1
+            break
+
+if in_1_or_2 == eq_in_1_or_2:
+    print(in_1_or_2)
+else:
+    print('simulation does not match equation', in_1_or_2, eq_in_1_or_2)
+    
