@@ -31,12 +31,28 @@ for b in total:
             is_good = False
             break
     not_together+=is_good
-    
+
 if eq_not_together == not_together:
     print(eq_not_together)
 else:
     print('simulation does not match equation:',
         eq_not_together, not_together)
 
+print('Two people are always together')
+are_together = 0
+eq_are_together = len(total) - not_together
+for b in total:
+    is_good = False
+    for each in b:
+        if 1 in each and 2 in each:
+            is_good = True
+            break
+    are_together+=is_good
 
+if eq_are_together == are_together:
+    print(eq_are_together)
+else:
+    print('simulation does not match equation:',
+        eq_are_together, are_together)
 
+print('')
