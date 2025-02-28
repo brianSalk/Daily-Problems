@@ -1,3 +1,8 @@
+# This is one of those where we need to make our
+# example smaller for the simulation.  
+# Some numbers are just too big and take too long to
+# simulate
+
 from itertools import permutations
 from math import comb, perm
 
@@ -16,13 +21,14 @@ print('total')
 print(len(total))
 print(eq_total)
 
-print('bobby and billy not next to eachother:')
-has_two_next = 0
+print('bobby and billy not next to each other:')
+not_together = 0
+eq_not_together = int(len(total) * (6/8))
 for b in total:
     is_good = True
     for each in b:
         if 1 in each and 2 in each:
             is_good = False
             break
-    
-print(len(total))
+    not_together+=is_good
+
