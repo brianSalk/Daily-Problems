@@ -31,4 +31,12 @@ for b in total:
             is_good = False
             break
     not_together+=is_good
+    
+if eq_not_together == not_together:
+    print(eq_not_together)
+else:
+    print('simulation does not match equation:',
+        eq_not_together, not_together)
+
+
 
