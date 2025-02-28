@@ -2,7 +2,6 @@
 ### A teacher needs to split a class of $30$ kids into $6$ distinct groups of $5$.  
 ### How many ways can she split up the class with the following restrictions:
 
-Given these restrictions,  
 <details>
   <summary>Sarah and Norah cannot be in the same group?</summary>
 </details>
