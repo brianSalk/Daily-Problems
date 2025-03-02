@@ -8,6 +8,7 @@
 </details>
 
 <details>
+  $\dfrac{30!}{5!^6} \cdot \dfrac{1}{2}$
   <summary>Billy must be in one of the first $3$ groups?</summary>
 </details>
 
