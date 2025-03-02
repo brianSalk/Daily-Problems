@@ -3,6 +3,7 @@
 ### How many ways can she split up the class with the following restrictions:
 
 <details>
+  $\dfrac{30!}{5!^6} \cdot \dfrac{5 \cdot 5}{5 \cdot 6 - 1}$
   <summary>Sarah and Norah cannot be in the same group?</summary>
 </details>
 
