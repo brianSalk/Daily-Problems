@@ -3,6 +3,10 @@
 # Some numbers are just too big and take too long to
 # simulate
 
+# number of people = 9
+# number of groups = 3
+# group size = 3
+
 from itertools import permutations
 from math import comb, perm
 
@@ -40,7 +44,7 @@ else:
 
 print('Two people are always together')
 are_together = 0
-eq_are_together = len(total) - not_together
+eq_are_together =  int(eq_total * (2/(2*3 + 2)))
 for b in total:
     is_good = False
     for each in b:
@@ -53,7 +57,7 @@ if eq_are_together == are_together:
     print(eq_are_together)
 else:
     print('simulation does not match equation:',
-        eq_are_together, are_together)
+        f'{eq_are_together=}, {are_together=}')
 
 print('person is in group 1 or 2:')
 in_1_or_2 = 0
@@ -68,4 +72,9 @@ if in_1_or_2 == eq_in_1_or_2:
     print(in_1_or_2)
 else:
     print('simulation does not match equation', in_1_or_2, eq_in_1_or_2)
-    
+
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
