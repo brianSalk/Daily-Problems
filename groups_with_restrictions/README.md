@@ -28,3 +28,8 @@ put Sarah in any group, then there are $5 \cdot 6 - 1$ positions left.  Of those
 ```math
 \dfrac{30!}{5!^6} \cdot \dfrac{5 \cdot 5}{5 \cdot 6 -1}
 ```
+### Billy must be in one of the first $3$ groups
+Because there are $6$ groups total, there is a $\dfrac{1}{2}$ probability that he ends up in one of the first three groups, so our equation is:
+```math
+\dfrac{30!}{5!^6} \cdot \dfrac{1}{2}
+```
