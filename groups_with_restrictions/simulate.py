@@ -42,7 +42,7 @@ else:
     print('simulation does not match equation:',
         eq_not_together, not_together)
 
-print('Two people are always together')
+print('Two people in same group')
 are_together = 0
 eq_are_together =  int(eq_total * (2/(2*3 + 2)))
 for b in total:
@@ -73,6 +73,37 @@ if in_1_or_2 == eq_in_1_or_2:
 else:
     print('simulation does not match equation', in_1_or_2, eq_in_1_or_2)
 
+l = list(range(1,13))
+
+s = set()
+count = 0
+print("Three in same group:")
+for p in permutations(l, r=8):
+    a = p[:4]
+    b = p[4:8]
+    s.add(
+        (
+            tuple(sorted(a)), 
+            tuple(sorted(b))
+        )
+        )
+c = 0
+for each in s:
+    a = each[0]
+    b = each[1]
+    if 1 in a and 2 in a and 3 in a:
+        count+=1
+    elif 1 in b and 2 in b and 3 in b:
+        count+=1
+    z = a + b
+    if 1 not in z and 2 not in z and 3 not in z:
+        count += 1
+    c+=1
+eq = (perm(12)/(perm(4)**3)) * (3*comb(4,3)/comb(12,3))
+if eq == count:
+    print(count)
+else:
+    print(f'{count=} does not equal {eq=}')
 """
 #*#*#*#*#*#*#*#*#*#*#*#*#*
 Simulation by brian salkas
