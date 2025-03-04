@@ -13,7 +13,7 @@
 </details>
 
 <details>
-  $\dfrac{30!}{5!^6} \cdot \dfrac{4}{5 \cdot 5 + 4}$
+  $\dfrac{30!}{5!^6} \cdot \dfrac{6 {5 \choose 3}}{{30 \choose 3}}$
   <summary>Mark, Bobby, and Steeve must all be in the same group.</summary>
 </details>
 
