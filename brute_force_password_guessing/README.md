@@ -21,7 +21,7 @@ Next we use the product rule to count digits $10^5$, uppercase letters $26^2$ an
 ### Part C
 This time around we are told that the password starts with $5$ digits and ends with $3$ letters, so we do not use the binomial coefficient to count ways to place letters/numbers.  
 We are not allowed to repeat a digit, so we have ${}^{10}P_5$ ways of choosing our digits.  
-Lastly we have $3$ letters that can be upper or lower-case, so there are $3$ letters that can each be one of $48$ different letters $52^3$:
+Lastly we have $3$ letters that can be upper or lower-case, so there are $3$ letters that can each be one of $52$ different letters $52^3$:
 ```math
 {}^{10}P_5 \cdot 52^3
 ```
