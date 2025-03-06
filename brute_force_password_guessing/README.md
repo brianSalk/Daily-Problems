@@ -2,7 +2,7 @@
 A hacker is brute-forcing a users password, how many possible passwords can the user have if the users password:  
 <details><summary><b>A) </b>contains exactly $5$ digits and $2$ lowercase letters?</summary>${7 \choose 2} \cdot 26^2 \cdot 10^5$</details>
 <details><summary><b>B) </b>contains $5$ digits, $2$ uppercase letters and $3$ lowercase letters?</summary>${10 \choose 5, \space 2, \space 3} \cdot 10^5 \cdot 26^2 \cdot 26^3$</details>
-<details><summary><b>C) </b>begins with $5$ digits, each of which is unique and ends with $3$ upper- or lower-case letters, where letters may be repeated?</summary>$\prescript{10}{}{P}_5 \cdot 48^3$</details>
+<details><summary><b>C) </b>begins with $5$ digits, each of which is unique and ends with $3$ upper- or lower-case letters, where letters may be repeated?</summary>${}^{10}P_5 \cdot 48^3$</details>
 
 ## Explainations:
 ### Part A
@@ -23,5 +23,5 @@ This time around we told that the password starts with $5$ digits and ends with 
 We are not allowed to repeat a digit, so we have $\prescript{10}{}{P}_5$ ways of choosing our digits.  
 Lastly we have $3$ letters that can be upper or lower-case, so there are $3$ letters that can each be one of $48$ different letters $48^3$:
 ```math
-\prescript{10}{}{P}_5 \cdot 48^3
+{}^{10}P_5 \cdot 48^3
 ```
