@@ -62,3 +62,8 @@ if __name__ == "__main__":
                 seatings.add(equal)
     print(f'QC: {count}')
 
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
