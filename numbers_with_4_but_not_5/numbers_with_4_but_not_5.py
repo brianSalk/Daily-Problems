@@ -5,3 +5,9 @@ if __name__ == "__main__":
     for i in range(10_000):
         count += '4' in str(i) and '5' not in str(i)
     print(count)
+
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
