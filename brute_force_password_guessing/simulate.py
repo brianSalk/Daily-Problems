@@ -59,4 +59,8 @@ if __name__ == "__main__":
     else:
         print(f'question C answer: {q3_ans}')
 
-
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
