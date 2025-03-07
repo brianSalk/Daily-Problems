@@ -26,5 +26,12 @@ There are ${52 \choose 2}$ hands total, therefore there is a probability of
 ```
 of getting a pair of Aces.
 
-#### There person to the left of you have Aces, given that you have no Aces
+#### The person to the left of you have Aces, given that you have no Aces
 There are ${4 \choose 2}$ ways for both of thier cards to be an Ace.  
+Because you have two non-Ace cards, there are $50$ remaining cards, giving us a probability of
+```math
+\dfrac{{4 \choose 2}}{{50 \choose 2}}
+```
+of the person sitting next to you having Aces.
+
+#### 
