@@ -30,3 +30,9 @@ if __name__ == "__main__":
         print(f'cube : {a[2]} bass, {a[3]} bluegill')
         print()
     print(len(ans))
+
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
