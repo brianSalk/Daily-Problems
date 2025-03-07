@@ -27,3 +27,9 @@ if __name__ == '__main__':
                 breakfasts += 1
 
     print(f'there are {breakfasts} breakfasts')
+
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
