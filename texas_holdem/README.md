@@ -17,3 +17,14 @@ You are playing Texas Holdem with $3$ other people, each player is dealt $2$ car
 </details>
 
 ### Explanation
+
+#### Both cards are Aces
+There are ${4 \choose 2}$ ways for both of your cards to be an Ace.  
+There are ${52 \choose 2}$ hands total, therefore there is a probability of
+```math
+\dfrac{{4 \choose 2}}{{52 \choose 2}}
+```
+of getting a pair of Aces.
+
+#### There person to the left of you have Aces, given that you have no Aces
+There are ${4 \choose 2}$ ways for both of thier cards to be an Ace.  
