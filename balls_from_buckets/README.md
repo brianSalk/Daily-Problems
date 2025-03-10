@@ -30,6 +30,7 @@ This is the definition of the *geometric* distribution (aka $geom(n,p)$), where 
 
 #### Exactly $4$ balls, <b>blue,blue,red,blue</b>, in that order?
 We already know the probability of rolling $4$ times is $geom(4, \frac{1}{6})$, but now we have the additional restriction that the first, second, and fourth balls are blue.  
-We can simply mulitply these probabilities by
+We can simply mulitply these probabilities to get
 ```math
+geom(4,\frac{1}{6}) \left(\dfrac{2}{3}\right)^3 \cdot \dfrac{1}{3} \approx .00794
 ```
