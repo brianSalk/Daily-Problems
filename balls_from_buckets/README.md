@@ -35,5 +35,8 @@ We can simply mulitply these probabilities to get
 geom(4,\frac{1}{6}) \left(\dfrac{2}{3}\right)^3 \cdot \dfrac{1}{3} \approx .00794
 ```
 #### Exactly $2$ red balls and $2$ blue balls?
-Now that the order of the balls do not matter, we must use yet another distribution called the *binomial distribution* (aka $bin(n,r,p)$ ) where $n$ is the number of trials, $r$ is the number of successes and $p$ is the probability of success.  
+Now that the order of the balls do not matter, we must use yet another distribution called the *binomial distribution* (aka $binom(n,r,p)$ ) where $n$ is the number of trials, $r$ is the number of successes and $p$ is the probability of success.  
 Because we have $2$ of each color ball, it does not matter which color we define as success and failure.  
+```math
+geom(4, \frac{1}{6}) \ binom(4, 2, \frac{2}{3}) = \left(\dfrac{5}{6}\right)^4 \cdot \dfrac{1}{6} \cdot {4 \choose 2} (\dfrac{2}{3})^2(\dfrac{1}{3})^2 \approx .0238
+```
