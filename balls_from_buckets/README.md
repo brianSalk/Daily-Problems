@@ -9,9 +9,10 @@ If each time you select a ball, you put it back into the bucket before rolling t
 </details>
 
 <details>
+  $\left(\dfrac{5}{6}\right)^4 \cdot \dfrac{1}{6} \cdot (\dfrac{2}{3})^3 (\dfrac{1}{3})$
   <summary>Exactly $4$ balls, <b>blue,blue,red,blue</b>, in that order?</summary>
 </details>
 
 <details>
-  <summary>Exactly $2$ red ballls and $2$ blue balls?</summary>
+  <summary>Exactly $2$ red balls and $2$ blue balls?</summary>
 </details>
