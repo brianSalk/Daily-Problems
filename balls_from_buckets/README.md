@@ -14,5 +14,6 @@ If each time you select a ball, you put it back into the bucket before rolling t
 </details>
 
 <details>
+  $\left(\dfrac{5}{6}\right)^4 \cdot \dfrac{1}{6} \cdot {4 \choose 2} (\dfrac{2}{3})^2(\dfrac{1}{3})^2$
   <summary>Exactly $2$ red balls and $2$ blue balls?</summary>
 </details>
