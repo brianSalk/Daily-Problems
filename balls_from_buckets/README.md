@@ -26,7 +26,7 @@ this can be calculated by the following equation:
 ```math
 geom(4, \frac{1}{6}) = \left(\dfrac{5}{6}\right)^4 \cdot \dfrac{1}{6} \approx .0804
 ```
-This is the definition of the *geometric* distribution (aka $geom(n,p)$), where $n$ is the number of failures before the first success and $p$ is the probability of success.  We will define a success as rolling a six, because rolling a six allows us to stop rolling again.  
+This is the definition of the *geometric* distribution (aka $geom(n,p)$ ), where $n$ is the number of failures before the first success and $p$ is the probability of success.  We will define a success as rolling a six, because rolling a six allows us to stop rolling again.  
 
 #### Exactly $4$ balls, <b>blue,blue,red,blue</b>, in that order?
 We already know the probability of rolling $4$ times is $geom(4, \frac{1}{6})$, but now we have the additional restriction that the first, second, and fourth balls are blue.  
