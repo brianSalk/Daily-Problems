@@ -34,3 +34,6 @@ We can simply mulitply these probabilities to get
 ```math
 geom(4,\frac{1}{6}) \left(\dfrac{2}{3}\right)^3 \cdot \dfrac{1}{3} \approx .00794
 ```
+#### Exactly $2$ red balls and $2$ blue balls?
+Now that the order of the balls do not matter, we must use yet another distribution called the *binomial distribution* (aka $bin(n,r,p)$ ) where $n$ is the number of trials, $r$ is the number of successes and $p$ is the probability of success.  
+Because we have $2$ of each color ball, it does not matter which color we define as success and failure.  
