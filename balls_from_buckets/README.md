@@ -9,11 +9,11 @@ If each time you select a ball, you put it back into the bucket before rolling t
 </details>
 
 <details>
-  $\left(\dfrac{5}{6}\right)^4 \cdot \dfrac{1}{6} \cdot (\dfrac{2}{3})^3 (\dfrac{1}{3})$
+  $\left(\dfrac{5}{6}\right)^4 \cdot \dfrac{1}{6} \cdot (\dfrac{2}{3})^3 (\dfrac{1}{3}) \approx .00794$
   <summary>Exactly $4$ balls, <b>blue,blue,red,blue</b>, in that order?</summary>
 </details>
 
 <details>
-  $\left(\dfrac{5}{6}\right)^4 \cdot \dfrac{1}{6} \cdot {4 \choose 2} (\dfrac{2}{3})^2(\dfrac{1}{3})^2$
+  $\left(\dfrac{5}{6}\right)^4 \cdot \dfrac{1}{6} \cdot {4 \choose 2} (\dfrac{2}{3})^2(\dfrac{1}{3})^2 \approx .0238$
   <summary>Exactly $2$ red balls and $2$ blue balls?</summary>
 </details>
