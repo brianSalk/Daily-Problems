@@ -20,6 +20,7 @@ def common_count(a,b):
     
 
 eq = (comb(K, k) * comb(N-K, n-k))/comb(N, n)
+print('Exactly Four:')
 print('Equation:  ', eq)
 
 NUM_TRIALS = 300_000
@@ -31,7 +32,26 @@ for _ in range(NUM_TRIALS):
     if common_count(climate, wealth) == 4:
         count+=1
 print('Simulation:',count/NUM_TRIALS)
+print()
     
+count=0
+print('7 or fewer:')
+eq = 0
+for k in range(8):
+    eq += (comb(K, k) * comb(N-K, n-k))/comb(N, n)
+print('Equation:  ', eq)
+for _ in range(NUM_TRIALS):
+    climate = sample(people, k=25)
+    wealth = sample(people, k=10)
+    if common_count(climate, wealth) <= 7:
+        count+=1
+
+
+
+print('simulation:', count/NUM_TRIALS)
+
+
+
 
 """
 #*#*#*#*#*#*#*#*#*#*#*#*#*
