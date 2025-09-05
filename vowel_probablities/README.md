@@ -10,32 +10,42 @@
 #### Part A - selecting with replacement.
 
 Because we are selecting with replacement, the probability of selecting a vowel does not change after we select a letter.  We will refer to selecting a single vowel as a **success** and we will refer to selecting a consonant as a **failure**.  the probability of a success will be represented with the letter $p$, and the probability of failure with $q$.  $p$ and $q$ have the following values:  
-$$
+```math
 p = \dfrac{6}{26} = \dfrac{3}{13}
-$$
-$$
+```
+```math
 p = \dfrac{20}{26} = \dfrac{10}{13}
-$$
+```
 The probability that we select a vowel $3$ times is:
-$$
+```math
 P(three\_vowels) = p^3
-$$
+```
 and the probability that we select a consonant is:
-$$
+```math
 P(seven\_vowels) = q^7
-$$
+```
 Since we do not care what order the letters are selected in, we must also count all unique orderings of selecting a vowel or consonant:
-$$
+```math
 {10 \choose 3}
-$$
+```
 We do not care which vowel is selected and which consonant.  For our sake, selecting $A$ is the same as selecting $E$.  We only care that they are vowels.  
 We multiple all these elements together to get:
-$$
+```math
 {10 \choose 3} p^3 q^7
-$$
+```
 If we plug in our values for $p$ and $q$ and solve the equation we get a final answer of about:
-$$
+```math
 {10 \choose 3} p^3 q^7 \approx 0.235
-$$
+```
+Which is also the equation for the **Binomial Probability Distribution**.
+
+### Part B - without replacement
+When we are not allowed to select the same vowel, our equation becomes totally different.  
+We must choose $3$ of the $6$ vowels, and our remaining $7$ letters must come from the $20$ remaining consonants.  Then we divide by the number of ways we can choose $10$ out of $26$ letters.  
+This leaves us with:
+```math
+\dfrac{ {6 \choose 3} {20 \choose 7}}{{26 \choose 10}}
+```
+Which is also the equation for the **Hypergeometric Distribution**.
 
 
