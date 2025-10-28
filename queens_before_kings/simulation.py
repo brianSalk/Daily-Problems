@@ -9,9 +9,9 @@ def has_four_queens(deck):
         if card == 'k':
             return queen_count == 4
             
-d = [2,3,4,5,6,7,8,9,10,'j','q','k','a']
+
 deck = []
-for each in d:
+for each in [2,3,4,5,6,7,8,9,10,'j','q','k','a']:
     for _ in range(4):
         deck.append(str(each))
 
