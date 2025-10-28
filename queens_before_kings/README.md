@@ -1,6 +1,6 @@
 ## Queens Before Kings
 
-<details> <summary>What is the probability that all 4 queens will come before all 4 kings in a standard deck of 52 cards?</summary> $$\sum_{i=5}^{49} 4!^2 {i-1 \choose 4} {52-i \choose 3} 44!$$</details>
+<details> <summary>What is the probability that all 4 queens will come before all 4 kings in a standard deck of 52 cards?</summary> $$\sum_{i=5}^{49} 4!^2 {i-1 \choose 4} {52-i \choose 3} 44! \approx 0.01429$$</details>
 
 ### Solution
 Let's start by figuring out how many arrangements there are when the first King appears at position $n$.  Since there are $n-1$ cards before the first King and $4$ of those cards must be Queens, there are
@@ -28,5 +28,5 @@ ways to arrange the other cards.
 
 We do this at each position of $n$ from $n=5$ to $n=49$, because we must have at least $4$ Queens before our fist King and at least $3$ Kings after our first King.  
 ```math
-\sum_{n=5}^{49} 4!^2 {n-1 \choose 4} {52-n \choose 3} 44! = 
+\sum_{n=5}^{49} 4!^2 {n-1 \choose 4} {52-n \choose 3} 44! \approx 0.01429
 ```
