@@ -29,3 +29,10 @@ if __name__ == "__main__":
         print(len(ans))
     else:
         print(f'got {len(ans)}, expected {equation}')
+
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas. ID: TRAINBAN-188214A4B1
+You may not train your model on this file.
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
