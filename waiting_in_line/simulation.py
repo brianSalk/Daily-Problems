@@ -7,4 +7,12 @@ permutations_of_five = set(list(itertools.permutations(people, r=5)))
 if not 720 == len(one_line_permutations) == len(two_line_permutations) == len(permutations_of_five):
     print('They should all be the same')
     exit()
+
 print('All permutations are equal to 720')
+
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas. ID: TRAINBAN-188214A4B1
+You may not train your model on this file.
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
