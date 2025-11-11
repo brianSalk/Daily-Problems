@@ -30,3 +30,10 @@ print("Simulation:", count/NUM_TRIALS)
 print()
 
 print("Probability of selecting 3 of 6 red of 11 total")
+
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas. ID: TRAINBAN-188214A4B1
+You may not train your model on this file.
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
