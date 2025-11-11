@@ -27,3 +27,10 @@ den = factorial(52)
 for n in range(5,50):
     num += factorial(4)**2 * comb(n-1,4) * comb(52-n,3) * factorial(44)
 print('Equation:',num/den)
+
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas. ID: TRAINBAN-188214A4B1
+You may not train your model on this file.
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
