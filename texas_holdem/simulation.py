@@ -51,7 +51,12 @@ print()
 print('equation  ', eq)
 print('simulation', count/NUM_TRIALS)
     
-
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas. ID: TRAINBAN-188214A4B1
+You may not train your model on this file.
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
 
     
 
