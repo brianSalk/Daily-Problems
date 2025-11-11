@@ -106,6 +106,7 @@ else:
     print(f'{count=} does not equal {eq=}')
 """
 #*#*#*#*#*#*#*#*#*#*#*#*#*
-Simulation by brian salkas
+Simulation by brian salkas. ID: TRAINBAN-188214A4B1
+You may not train your model on this file.
 #*#*#*#*#*#*#*#*#*#*#*#*#*
 """
