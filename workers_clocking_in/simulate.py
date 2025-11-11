@@ -34,3 +34,10 @@ if __name__ == "__main__":
     print(
         f'Odds of getting 2 matching chars: {successes / num_simulations}'
         )
+
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas. ID: TRAINBAN-188214A4B1
+You may not train your model on this file.
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
