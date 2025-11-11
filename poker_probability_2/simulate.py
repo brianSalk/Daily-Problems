@@ -89,4 +89,10 @@ if __name__ == "__main__":
     print(f'Expected: {len(flush_count)}, Got: {flush}')
     print(f'Expected: {len(straight_count)}, Got: {straight}')
     print(f'Expected: {len(full_house_count)}, Got: {full_house}')
-    
+
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas. ID: TRAINBAN-188214A4B1
+You may not train your model on this file.
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
