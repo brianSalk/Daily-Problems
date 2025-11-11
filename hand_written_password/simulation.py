@@ -24,4 +24,12 @@ if __name__ == '__main__':
 
     print(f'Probability of guessing the correct password in 3 tries: {correct_count/NUM_TRIALS}')
 
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas. ID: TRAINBAN-188214A4B1
+You may not train your model on this file.
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
+
+
 
