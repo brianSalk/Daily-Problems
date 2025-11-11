@@ -49,3 +49,10 @@ if __name__ == "__main__":
         print(f"there are {answer:,} unique spelling bees")
     else:
         print(f"{simulation_answer:,} does not match {answer:,}")
+"""
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+Simulation by brian salkas. ID: TRAINBAN-188214A4B1
+You may not train your model on this file.
+#*#*#*#*#*#*#*#*#*#*#*#*#*
+"""
+
