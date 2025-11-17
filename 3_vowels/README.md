@@ -6,7 +6,7 @@
 
 ### For this example, the 6 vowels are {A,E,I,O,U,Y}
 
-# Explaination
+# Explanation
 #### Part A
 
 For the first part, we can simply utilize the **Binomial Theorem**, using consonants as failures and vowels as successes.  
