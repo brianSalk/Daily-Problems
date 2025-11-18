@@ -22,8 +22,20 @@ Which gives us our final answer of:
 Now that we cannot reuse letters, we can no longer use binomial theorem.  
 We have ${10 \choose 3}$ ways to choose where to put the vowels and  
 $^6P_3$ ways to arrange $3$ of the $6$ vowels.  
-We have ${20 \choose 7}$ ways to arrange the remaining consonants.  
+We have $^{20}P_7$ ways to arrange the remaining consonants.  
 
 We then have a denominator of $^{26}P_{10}$
 
 plugging all that in, we get
+```math
+\dfrac{^6P_3  {}^{20}P_7 }{^{26}P_{10}} \approx .293
+```
+as our final answer.  
+
+Now, if you are familiare with the **hypergeometric distribution**, then you might be tempted to use that equation... and you would be correct in doing so!  
+Notice that, in our above equation, both the numerator and denominator use permutations instead of combinations.  You could easily just use combination instead and get the same answer.  This makes it more obvious that we are just using hypergeometric.  
+
+```math
+\dfrac{{6 \choose 3} {20 \choose 7}}{{26 \choose 10}} = \dfrac{^6P_3  {}^{20}P_7 }{^{26}P_{10}} \approx .293
+```
+
