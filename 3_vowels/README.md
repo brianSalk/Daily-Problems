@@ -10,7 +10,7 @@
 #### Part A
 
 For the first part, we can simply apply the **Binomial Theorem**, using the number of consonants as failures and the number of vowels as successes.  
-The probability of a success (vowel) is $p=\dfrac{6}{26}$ and probability of a failure is $q=\dfrac{20}{26}$  
+The probability of a success (a given letter is a vowel) is $p=\dfrac{6}{26}$ and probability of a failure is $q=\dfrac{20}{26}$  
 There are ${10 \choose 3}$ places to choose $3$ of $10$ places to put the vowels.  
 
 Which gives us our final answer of:  
