@@ -2,7 +2,7 @@
 
 ### If you create a random word that consists of 10 letters from the English alphabet, 
 <details><summary><b>A)</b>What is the probability that your word will have exactly $3$ vowels?</summary> ${10 \choose 3} p^{3} q^{7} \approx .235$</details>
-<details><summary><b>B)</b>What is the probability that your word will have exactly $3$ vowels, if all letters are unique? (selected without replacement)</summary> $\dfrac{^6P_3  {}^{20}P_7 }{^{26}P_{10}} \approx .293$</details>
+<details><summary><b>B)</b>What is the probability that your word will have exactly $3$ vowels, if all letters are unique? (selected without replacement)</summary> $\dfrac{{10 \choose 3}  {}^6P_3  {}^{20}P_7 }{^{26}P_{10}} \approx .293$</details>
 
 ### For this example, the 6 vowels are {A,E,I,O,U,Y}
 
