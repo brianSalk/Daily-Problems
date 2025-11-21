@@ -31,7 +31,7 @@ passwords with **67** twice.
 
 This leaves us with
 ```math
-10^5 - {4 \choose 1} 10^3 + {3 \choose 2} 10
+10^5 - {4 \choose 1} 10^3 + {3 \choose 2} 10 = 96,030 
 ```
 passwords that contain **67** at least once.
 
